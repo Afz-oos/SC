@@ -11,10 +11,77 @@ local VirtualUser = game:GetService("VirtualUser")
 
 local Camera = Workspace.CurrentCamera
 
-local UserConfig = _G.Config or {}
+local UserConfig = (getgenv and getgenv().Config) or _G.Config or {}
 local TargetMiles = UserConfig.TargetMiles or 100
 local EnableAutoFarm = UserConfig.EnableAutoFarm
 if EnableAutoFarm == nil then EnableAutoFarm = true end
+local EnableWhiteScreen = UserConfig.WhiteScreen or false
+local EnableSuperBoostFPS = UserConfig.SuperBoostFPS or false
+
+if EnableWhiteScreen then
+    task.spawn(function()
+        local RunService = game:GetService("RunService")
+        pcall(function() RunService:Set3dRenderingEnabled(false) end)
+        local gui = Instance.new("ScreenGui")
+        gui.Name = "WhiteScreen"
+        gui.IgnoreGuiInset = true
+        gui.ResetOnSpawn = false
+        local frame = Instance.new("Frame")
+        frame.BackgroundColor3 = Color3.new(1, 1, 1)
+        frame.Size = UDim2.new(1, 0, 1, 0)
+        frame.Parent = gui
+        pcall(function()
+            gui.Parent = game:GetService("CoreGui")
+        end)
+        if not gui.Parent then
+            gui.Parent = LocalPlayer:WaitForChild("PlayerGui")
+        end
+    end)
+end
+
+if EnableSuperBoostFPS then
+    task.spawn(function()
+        local Lighting = game:GetService("Lighting")
+        local Terrain = Workspace.Terrain
+        
+        Lighting.GlobalShadows = false
+        Lighting.FogEnd = 9e9
+        Lighting.ShadowSoftness = 0
+        pcall(function() sethiddenproperty(Lighting, "Technology", 2) end)
+        
+        Terrain.WaterWaveSize = 0
+        Terrain.WaterWaveSpeed = 0
+        Terrain.WaterReflectance = 0
+        Terrain.WaterTransparency = 0
+        
+        Lighting:ClearAllChildren()
+        
+        local function applyFPSBoost(v)
+            if v:IsA("BasePart") and not v:IsA("MeshPart") then
+                v.Material = "Plastic"
+                v.Reflectance = 0
+            elseif v:IsA("Decal") or v:IsA("Texture") then
+                v.Transparency = 1
+            elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+                v.Lifetime = NumberRange.new(0)
+            elseif v:IsA("Explosion") then
+                v.BlastPressure = 1
+                v.BlastRadius = 1
+            elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") or v:IsA("Sparkles") then
+                v.Enabled = false
+            elseif v:IsA("MeshPart") then
+                v.Material = "Plastic"
+                v.Reflectance = 0
+            end
+        end
+
+        for i, v in pairs(Workspace:GetDescendants()) do
+            applyFPSBoost(v)
+        end
+        
+        Workspace.DescendantAdded:Connect(applyFPSBoost)
+    end)
+end
 
 local AutoFarm = EnableAutoFarm
 local TouchTheRoad = false
@@ -659,18 +726,15 @@ task.spawn(function()
             else
                 print("[System] ระยะทางครบ " .. tostring(TargetMiles) .. " Miles แล้ว! กำลังปิด AutoFarm และเริ่มส่งของ...")
             end
-            -- 1. ปิดออโต้ฟาร์ม (หยุด loop วาร์ป)
             AutoFarm = false
             
-            -- 2. รีเซ็ตตัวละครให้ตายและเกิดใหม่
             local char = LocalPlayer.Character
             if char and char:FindFirstChild("Humanoid") then
                 char.Humanoid.Health = 0
                 LocalPlayer.CharacterAdded:Wait()
-                task.wait(1.5) -- รอโหลดแมพสักครู่
+                task.wait(1.5) 
             end
 
-            -- 3. รันรีโมทเริ่มงาน
             local Event = ReplicatedStorage:WaitForChild("Remotes", 5)
             if Event then
                 local reqEvent = Event:WaitForChild("RequestStartJobSession", 5)
@@ -679,7 +743,6 @@ task.spawn(function()
                 end
             end
             
-            -- 4. เรียกใช้ฟังก์ชัน Auto Delivery
             AutoDelivery()
         else
             print("[System] ระยะทางยังไม่ครบ " .. tostring(TargetMiles) .. " (ปัจจุบัน " .. tostring(currentMiles) .. ") ระบบ AutoFarm จะขับรถต่อไป...")
