@@ -753,3 +753,48 @@ task.spawn(function()
 
     miles:GetPropertyChangedSignal("Value"):Connect(checkAndStartJob)
 end)
+
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer or Players.PlayerAdded:Wait()
+
+local leaderstats = LocalPlayer:WaitForChild("leaderstats")
+local Cash = leaderstats:WaitForChild("Cash")
+local Miles = leaderstats:WaitForChild("Miles")
+
+local function FormatNumber(num)
+	num = tonumber(num) or 0
+
+	local formatted = tostring(math.floor(num))
+	repeat
+		local count
+		formatted, count = formatted:gsub("^(%-?%d+)(%d%d%d)", "%1,%2")
+	until count == 0
+
+	return formatted
+end
+
+local function UpdateDescription()
+	local messages = string.format(
+		"💰 Cash : %s , 🚗 Miles : %s",
+		FormatNumber(Cash.Value),
+		FormatNumber(Miles.Value)
+	)
+
+	messages = messages:gsub("|", "")
+	messages = messages:gsub(";", "")
+
+	if _G.Horst_SetDescription then
+		pcall(_G.Horst_SetDescription, messages)
+	end
+end
+
+UpdateDescription()
+
+Cash:GetPropertyChangedSignal("Value"):Connect(UpdateDescription)
+Miles:GetPropertyChangedSignal("Value"):Connect(UpdateDescription)
+
+task.spawn(function()
+	while task.wait(30) do
+		UpdateDescription()
+	end
+end)
