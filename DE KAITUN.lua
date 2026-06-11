@@ -8,6 +8,20 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local MarketplaceService = game:GetService("MarketplaceService")
 local VirtualUser = game:GetService("VirtualUser")
 
+if game.PlaceId == 99421106727783 then
+    game:GetService("TeleportService"):Teleport(3351674303, LocalPlayer)
+    return
+end
+
+if game.PlaceId == 3351674303 then
+    task.spawn(function()
+        while task.wait(180) do
+            if game.PlaceId == 99421106727783 then
+                game:GetService("TeleportService"):Teleport(3351674303, LocalPlayer)
+            end
+        end
+    end)
+end
 
 local Camera = Workspace.CurrentCamera
 
@@ -27,7 +41,7 @@ if EnableWhiteScreen then
         gui.IgnoreGuiInset = true
         gui.ResetOnSpawn = false
         local frame = Instance.new("Frame")
-        frame.BackgroundColor3 = Color3.new(0, 0, 0)
+        frame.BackgroundColor3 = Color3.new(1, 1, 1)
         frame.Size = UDim2.new(1, 0, 1, 0)
         frame.Parent = gui
         pcall(function()
@@ -726,15 +740,18 @@ task.spawn(function()
             else
                 print("[System] ระยะทางครบ " .. tostring(TargetMiles) .. " Miles แล้ว! กำลังปิด AutoFarm และเริ่มส่งของ...")
             end
+            -- 1. ปิดออโต้ฟาร์ม (หยุด loop วาร์ป)
             AutoFarm = false
             
+            -- 2. รีเซ็ตตัวละครให้ตายและเกิดใหม่
             local char = LocalPlayer.Character
             if char and char:FindFirstChild("Humanoid") then
                 char.Humanoid.Health = 0
                 LocalPlayer.CharacterAdded:Wait()
-                task.wait(1.5) 
+                task.wait(1.5) -- รอโหลดแมพสักครู่
             end
 
+            -- 3. รันรีโมทเริ่มงาน
             local Event = ReplicatedStorage:WaitForChild("Remotes", 5)
             if Event then
                 local reqEvent = Event:WaitForChild("RequestStartJobSession", 5)
@@ -743,6 +760,7 @@ task.spawn(function()
                 end
             end
             
+            -- 4. เรียกใช้ฟังก์ชัน Auto Delivery
             AutoDelivery()
         else
             print("[System] ระยะทางยังไม่ครบ " .. tostring(TargetMiles) .. " (ปัจจุบัน " .. tostring(currentMiles) .. ") ระบบ AutoFarm จะขับรถต่อไป...")
@@ -752,49 +770,4 @@ task.spawn(function()
     checkAndStartJob()
 
     miles:GetPropertyChangedSignal("Value"):Connect(checkAndStartJob)
-end)
-
-local Players = game:GetService("Players")
-local LocalPlayer = Players.LocalPlayer or Players.PlayerAdded:Wait()
-
-local leaderstats = LocalPlayer:WaitForChild("leaderstats")
-local Cash = leaderstats:WaitForChild("Cash")
-local Miles = leaderstats:WaitForChild("Miles")
-
-local function FormatNumber(num)
-	num = tonumber(num) or 0
-
-	local formatted = tostring(math.floor(num))
-	repeat
-		local count
-		formatted, count = formatted:gsub("^(%-?%d+)(%d%d%d)", "%1,%2")
-	until count == 0
-
-	return formatted
-end
-
-local function UpdateDescription()
-	local messages = string.format(
-		"💰 Cash : %s , 🚗 Miles : %s",
-		FormatNumber(Cash.Value),
-		FormatNumber(Miles.Value)
-	)
-
-	messages = messages:gsub("|", "")
-	messages = messages:gsub(";", "")
-
-	if _G.Horst_SetDescription then
-		pcall(_G.Horst_SetDescription, messages)
-	end
-end
-
-UpdateDescription()
-
-Cash:GetPropertyChangedSignal("Value"):Connect(UpdateDescription)
-Miles:GetPropertyChangedSignal("Value"):Connect(UpdateDescription)
-
-task.spawn(function()
-	while task.wait(30) do
-		UpdateDescription()
-	end
 end)
