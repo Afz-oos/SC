@@ -225,11 +225,11 @@ local function AutoDelivery()
 
     local DEFAULT_CONFIG = {
         TeleportHeight = 4,
-        AfterTeleportDelay = 0.25,
-        AfterLeaveDelay = 0.4,
+        AfterTeleportDelay = 0.75,
+        AfterLeaveDelay = 0.6,
         StatePollDelay = 0.2,
-        LoopDelay = 0.35,
-        InteractDelay = 0.65,
+        LoopDelay = 0.5,
+        InteractDelay = 1.0,
         StartTimeout = 8,
         CollectTimeout = 14,
         DropTimeout = 12,
@@ -785,4 +785,3 @@ task.spawn(function()
 
     miles:GetPropertyChangedSignal("Value"):Connect(checkAndStartJob)
 end)
-
