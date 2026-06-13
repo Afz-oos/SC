@@ -3,7 +3,7 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/A
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "A Project Chick Chick",
+    Title = "Chick Chick",
     SubTitle = "by Ao Pro Free",
     TabWidth = 160,
     Size = UDim2.fromOffset(580, 460),
