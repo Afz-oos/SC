@@ -3,7 +3,7 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/A
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "Chick Chick",
+    Title = "A Project Chick Chick",
     SubTitle = "by Ao Pro Free",
     TabWidth = 160,
     Size = UDim2.fromOffset(580, 460),
@@ -158,7 +158,38 @@ PickToggle:OnChanged(function()
         AutoPickEventTask = task.spawn(function()
             while Options.AutoPickEventToggle.Value do
                 pcall(function()
-                    -- ดึงจาก DroppedItems (ของตกทั่วไปรวมถึงของ Event)
+                    local hrp = game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+                    
+                    -- 1. ลุยโฟลเดอร์ SeedPackSpawnServerLocations โดยเฉพาะเลย (ใช้วิธีวาป+Touch ให้ชัวร์)
+                    local mapFolder = game:GetService("Workspace"):FindFirstChild("Map")
+                    if mapFolder then
+                        local seedPackFolder = mapFolder:FindFirstChild("SeedPackSpawnServerLocations")
+                        if seedPackFolder then
+                            for _, item in ipairs(seedPackFolder:GetChildren()) do
+                                if item:IsA("BasePart") or item:IsA("Model") then
+                                    local prompt = item:FindFirstChildWhichIsA("ProximityPrompt", true)
+                                    if prompt then
+                                        fireproximityprompt(prompt)
+                                    end
+                                    
+                                    local targetPart = item:IsA("Model") and (item.PrimaryPart or item:FindFirstChildWhichIsA("BasePart", true)) or item
+                                    if hrp and targetPart and targetPart:IsA("BasePart") then
+                                        -- ใช้ firetouchinterest เพื่อสั่งให้ชน
+                                        if firetouchinterest then
+                                            firetouchinterest(hrp, targetPart, 0)
+                                            task.wait(0.01)
+                                            firetouchinterest(hrp, targetPart, 1)
+                                        end
+                                        -- วาปตัวเราไปชนด้วย เผื่อ firetouchinterest ไม่ทำงาน
+                                        hrp.CFrame = targetPart.CFrame
+                                        task.wait(0.2)
+                                    end
+                                end
+                            end
+                        end
+                    end
+
+                    -- 2. ดึงจาก DroppedItems (ของตกทั่วไปรวมถึงของ Event)
                     local droppedItemsFolder = game:GetService("Workspace"):FindFirstChild("DroppedItems")
                     if droppedItemsFolder then
                         for _, item in ipairs(droppedItemsFolder:GetDescendants()) do
@@ -168,11 +199,11 @@ PickToggle:OnChanged(function()
                         end
                     end
                     
-                    -- ดึงจาก Workspace เผื่อว่าของ Event มันไม่ได้อยู่ใน DroppedItems
+                    -- 3. ดึงจาก Workspace เผื่อว่าของ Event มันไม่ได้อยู่ใน DroppedItems
                     for _, prompt in ipairs(game:GetService("Workspace"):GetDescendants()) do
                         if prompt:IsA("ProximityPrompt") then
                             local text = string.lower(prompt.ActionText)
-                            if text == "collect" or text == "pick up" or text == "pickup" then
+                            if text == "collect" or text == "pick up" or text == "pickup" or text == "open" or text == "take" then
                                 fireproximityprompt(prompt)
                             end
                         end
