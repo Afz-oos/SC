@@ -20,7 +20,7 @@ local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "home" }),
     Farm = Window:AddTab({ Title = "Farm", Icon = "gamepad-2" }),
     Shop = Window:AddTab({ Title = "Shop", Icon = "shopping-cart" }),
-    Trade = Window:AddTab({ Title = "Treads", Icon = "arrow-left-right" }),
+    Trade = Window:AddTab({ Title = "Trade", Icon = "arrow-left-right" }),
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
 }
 
@@ -451,7 +451,7 @@ end)
 local AutoSendMailTask
 local TargetUserIdCache = {}
 
-local TargetPlayerInput = Tabs.Treads:AddInput("TargetPlayerMail", {
+local TargetPlayerInput = Tabs.Trade:AddInput("TargetPlayerMail", {
     Title = "Target Player Name",
     Default = "",
     Placeholder = "Enter username here",
@@ -465,21 +465,21 @@ for _, v in ipairs(SeedsList) do table.insert(SendSeedsList, v) end
 local SendGearsList = {"All"}
 for _, v in ipairs(GearsList) do table.insert(SendGearsList, v) end
 
-local SendSeedDropdown = Tabs.Treads:AddDropdown("SelectSeedToSend", {
+local SendSeedDropdown = Tabs.Trade:AddDropdown("SelectSeedToSend", {
     Title = "Select Seeds to Send",
     Values = SendSeedsList,
     Multi = true,
     Default = {},
 })
 
-local SendGearDropdown = Tabs.Treads:AddDropdown("SelectGearToSend", {
+local SendGearDropdown = Tabs.Trade:AddDropdown("SelectGearToSend", {
     Title = "Select Gears to Send",
     Values = SendGearsList,
     Multi = true,
     Default = {},
 })
 
-local SendMailToggle = Tabs.Treads:AddToggle("AutoSendMailToggle", {Title = "Auto SendMail", Default = false })
+local SendMailToggle = Tabs.Trade:AddToggle("AutoSendMailToggle", {Title = "Auto SendMail", Default = false })
 SendMailToggle:OnChanged(function()
     if Options.AutoSendMailToggle.Value then
         AutoSendMailTask = task.spawn(function()
