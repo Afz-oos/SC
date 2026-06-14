@@ -1,8 +1,25 @@
 repeat task.wait() until game:IsLoaded()
 
-local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
-local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Afz-oos/PJAX/refs/heads/main/Config.lua"))()
-local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+-- สุ่มดีเลย์เพื่อป้องกันปัญหา GitHub Rate Limit ตอนเปิดหลายจอพร้อมกัน
+task.wait(math.random(10, 50) / 10) 
+
+local function safeLoadstring(url)
+    local success, result
+    repeat
+        success, result = pcall(function()
+            return game:HttpGet(url)
+        end)
+        if not success or not result or string.len(result) < 100 then
+            task.wait(math.random(2, 5)) -- หากดึงข้อมูลไม่สำเร็จให้สุ่มรอ 2-5 วินาทีแล้วลองใหม่
+            success = false
+        end
+    until success
+    return loadstring(result)()
+end
+
+local Fluent = safeLoadstring("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua")
+local SaveManager = safeLoadstring("https://raw.githubusercontent.com/Afz-oos/PJAX/refs/heads/main/Config.lua")
+local InterfaceManager = safeLoadstring("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua")
 
 local Window = Fluent:CreateWindow({
     Title = "A Project Chick Chick",
