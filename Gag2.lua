@@ -3,23 +3,37 @@ repeat task.wait() until game:IsLoaded()
 -- สุ่มดีเลย์เพื่อป้องกันปัญหา GitHub Rate Limit ตอนเปิดหลายจอพร้อมกัน
 task.wait(math.random(10, 50) / 10) 
 
-local function safeLoadstring(url)
+local function safeLoadstringCached(url, fileName)
+    if isfile and readfile and writefile then
+        if isfile(fileName) then
+            local content = readfile(fileName)
+            if content and string.len(content) > 100 then
+                return loadstring(content)()
+            end
+        end
+    end
+    
     local success, result
     repeat
         success, result = pcall(function()
             return game:HttpGet(url)
         end)
         if not success or not result or string.len(result) < 100 then
-            task.wait(math.random(2, 5)) -- หากดึงข้อมูลไม่สำเร็จให้สุ่มรอ 2-5 วินาทีแล้วลองใหม่
+            task.wait(math.random(2, 5))
             success = false
         end
     until success
+    
+    if isfile and writefile then
+        pcall(function() writefile(fileName, result) end)
+    end
+    
     return loadstring(result)()
 end
 
-local Fluent = safeLoadstring("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua")
-local SaveManager = safeLoadstring("https://raw.githubusercontent.com/Afz-oos/PJAX/refs/heads/main/Config.lua")
-local InterfaceManager = safeLoadstring("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua")
+local Fluent = safeLoadstringCached("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua", "AProject_Fluent.lua")
+local SaveManager = safeLoadstringCached("https://raw.githubusercontent.com/Afz-oos/PJAX/refs/heads/main/Config.lua", "AProject_SaveManager.lua")
+local InterfaceManager = safeLoadstringCached("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua", "AProject_Interface.lua")
 
 local Window = Fluent:CreateWindow({
     Title = "A Project Chick Chick",
@@ -89,13 +103,26 @@ task.spawn(function()
     
     -- 2. ข้ามหน้าโหลดเกม (สำหรับคนเปิดหลายจอแล้วเมาส์ไม่ได้อยู่ในจอ)
     task.spawn(function()
-        local VirtualInputManager = game:GetService("VirtualInputManager")
-
-        local screenCenter = Vector2.new(workspace.CurrentCamera.ViewportSize.X / 2, workspace.CurrentCamera.ViewportSize.Y / 2)
-        task.wait(25)
-        VirtualInputManager:SendMouseButtonEvent(screenCenter.X, screenCenter.Y, 0, true, game, 0)
-        task.wait(0.1)
-        VirtualInputManager:SendMouseButtonEvent(screenCenter.X, screenCenter.Y, 0, false, game, 0)
+        local vim = game:GetService("VirtualInputManager")
+        for i = 1, 60 do -- เช็คเผื่อโหลดช้าเป็นเวลา 120 วินาที
+            local needsToPress = false
+            pcall(function()
+                local playerGui = game.Players.LocalPlayer:WaitForChild("PlayerGui", 5)
+                if playerGui then
+                    local loadingGui = playerGui:FindFirstChild("LoadingGui")
+                    if loadingGui and loadingGui.Enabled then
+                        needsToPress = true
+                    end
+                end
+            end)
+            
+            if needsToPress then
+                vim:SendKeyEvent(true, Enum.KeyCode.Space, false, game)
+                task.wait(0.1)
+                vim:SendKeyEvent(false, Enum.KeyCode.Space, false, game)
+            end
+            task.wait(2)
+        end
     end)
 end)
 
