@@ -27,6 +27,34 @@ local Tabs = {
 local Options = Fluent.Options
 
 -- ============================================================
+-- Auto Bypass (Loading Screen & Tutorial)
+-- ============================================================
+task.spawn(function()
+    -- 1. บังคับข้ามหน้าสอนเล่น (Tutorial) เพื่อให้ส่งของให้คนอื่นได้เลย
+    pcall(function()
+        local Networking = require(game:GetService("ReplicatedStorage").SharedModules.Networking)
+        Networking.Tutorial.Complete:Fire()
+    end)
+    
+    -- 2. ข้ามหน้าโหลดเกม (สำหรับคนเปิดหลายจอแล้วเมาส์ไม่ได้อยู่ในจอ)
+    task.spawn(function()
+        local vim = game:GetService("VirtualInputManager")
+        for i = 1, 60 do -- พยายามเช็คเป็นเวลา 60 วินาทีเผื่อเกมโหลดช้า
+            pcall(function()
+                local loadingGui = game.Players.LocalPlayer.PlayerGui:FindFirstChild("LoadingGui")
+                if loadingGui and loadingGui:FindFirstChild("Variant1Frame") and loadingGui.Variant1Frame.Visible then
+                    local screenCenter = Vector2.new(workspace.CurrentCamera.ViewportSize.X / 2, workspace.CurrentCamera.ViewportSize.Y / 2)
+                    vim:SendMouseButtonEvent(screenCenter.X, screenCenter.Y, 0, true, game, 0)
+                    task.wait(0.1)
+                    vim:SendMouseButtonEvent(screenCenter.X, screenCenter.Y, 0, false, game, 0)
+                end
+            end)
+            task.wait(1)
+        end
+    end)
+end)
+
+-- ============================================================
 -- Main Tab
 -- ============================================================
 
@@ -156,11 +184,12 @@ local PickToggle = Tabs.Farm:AddToggle("AutoPickEventToggle", {Title = "Auto Pic
 PickToggle:OnChanged(function()
     if Options.AutoPickEventToggle.Value then
         AutoPickEventTask = task.spawn(function()
+            local tickCounter = 0
             while Options.AutoPickEventToggle.Value do
                 pcall(function()
                     local hrp = game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
                     
-                    -- 1. ลุยโฟลเดอร์ SeedPackSpawnServerLocations โดยเฉพาะเลย (ใช้วิธีวาป+Touch ให้ชัวร์)
+                    -- 1. ลุยโฟลเดอร์ SeedPackSpawnServerLocations เร็วพิเศษแบบไม่มีดีเลย์!
                     local mapFolder = game:GetService("Workspace"):FindFirstChild("Map")
                     if mapFolder then
                         local seedPackFolder = mapFolder:FindFirstChild("SeedPackSpawnServerLocations")
@@ -174,42 +203,44 @@ PickToggle:OnChanged(function()
                                     
                                     local targetPart = item:IsA("Model") and (item.PrimaryPart or item:FindFirstChildWhichIsA("BasePart", true)) or item
                                     if hrp and targetPart and targetPart:IsA("BasePart") then
-                                        -- ใช้ firetouchinterest เพื่อสั่งให้ชน
+                                        -- ชนแล้วเก็บทันทีไม่มีรอ!
                                         if firetouchinterest then
                                             firetouchinterest(hrp, targetPart, 0)
-                                            task.wait(0.01)
                                             firetouchinterest(hrp, targetPart, 1)
                                         end
-                                        -- วาปตัวเราไปชนด้วย เผื่อ firetouchinterest ไม่ทำงาน
                                         hrp.CFrame = targetPart.CFrame
-                                        task.wait(0.2)
+                                        task.wait() -- วาร์ปรัวๆทีละเฟรม
                                     end
                                 end
                             end
                         end
                     end
 
-                    -- 2. ดึงจาก DroppedItems (ของตกทั่วไปรวมถึงของ Event)
-                    local droppedItemsFolder = game:GetService("Workspace"):FindFirstChild("DroppedItems")
-                    if droppedItemsFolder then
-                        for _, item in ipairs(droppedItemsFolder:GetDescendants()) do
-                            if item:IsA("ProximityPrompt") then
-                                fireproximityprompt(item)
+                    tickCounter = tickCounter + 1
+                    if tickCounter >= 10 then -- เช็คโฟลเดอร์ใหญ่ทุกๆ 10 เฟรมเพื่อไม่ให้เกมแลค
+                        tickCounter = 0
+                        -- 2. ดึงจาก DroppedItems (ของตกทั่วไปรวมถึงของ Event)
+                        local droppedItemsFolder = game:GetService("Workspace"):FindFirstChild("DroppedItems")
+                        if droppedItemsFolder then
+                            for _, item in ipairs(droppedItemsFolder:GetDescendants()) do
+                                if item:IsA("ProximityPrompt") then
+                                    fireproximityprompt(item)
+                                end
                             end
                         end
-                    end
-                    
-                    -- 3. ดึงจาก Workspace เผื่อว่าของ Event มันไม่ได้อยู่ใน DroppedItems
-                    for _, prompt in ipairs(game:GetService("Workspace"):GetDescendants()) do
-                        if prompt:IsA("ProximityPrompt") then
-                            local text = string.lower(prompt.ActionText)
-                            if text == "collect" or text == "pick up" or text == "pickup" or text == "open" or text == "take" then
-                                fireproximityprompt(prompt)
+                        
+                        -- 3. ดึงจาก Workspace เผื่อว่าของ Event มันไม่ได้อยู่ใน DroppedItems
+                        for _, prompt in ipairs(game:GetService("Workspace"):GetDescendants()) do
+                            if prompt:IsA("ProximityPrompt") then
+                                local text = string.lower(prompt.ActionText)
+                                if text == "collect" or text == "pick up" or text == "pickup" or text == "open" or text == "take" then
+                                    fireproximityprompt(prompt)
+                                end
                             end
                         end
                     end
                 end)
-                task.wait(0.2)
+                task.wait() -- ไวแสง! (รันทุกๆเฟรมเรนเดอร์ของจอ 60fps+)
             end
         end)
     else
