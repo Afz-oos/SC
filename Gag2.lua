@@ -21,10 +21,42 @@ local Tabs = {
     Farm = Window:AddTab({ Title = "Farm", Icon = "gamepad-2" }),
     Shop = Window:AddTab({ Title = "Shop", Icon = "shopping-cart" }),
     Trade = Window:AddTab({ Title = "Trade", Icon = "arrow-left-right" }),
+    Pets = Window:AddTab({ Title = "Pets", Icon = "smile" }),
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
 }
 
 local Options = Fluent.Options
+
+local SeedsList = {
+    "All", "Acorn", "Apple", "Baby Cactus", "Bamboo", "Banana", "Beanstalk", "Blueberry", 
+    "Buttercup", "Cactus", "Carrot", "Cherry", "Coconut", "Corn", "Dragon Fruit", 
+    "Dragon's Breath", "Ghost Pepper", "Glow Mushroom", "Gold", "Grape", "Green Bean", 
+    "Horned Melon", "Lotus", "Mango", "Moon Bloom", "Mushroom", "Pineapple", "Pinetree", 
+    "Poison Apple", "Poison Ivy", "Pomegranate", "Pumpkin", "Rainbow", "Romanesco", 
+    "Strawberry", "Sunflower", "Thorn Rose", "Tomato", "Tulip", "Venus Fly Trap"
+}
+
+local GearsList = {
+    "All", "Common Watering Can", "Common Sprinkler", "Sign", "Lantern", "Wheelbarrow", 
+    "Uncommon Sprinkler", "Rare Sprinkler", "Legendary Sprinkler", "Super Sprinkler", 
+    "Trowel", "Speed Mushroom", "Jump Mushroom", "Gnome", "Shrink Mushroom", 
+    "Supersize Mushroom", "Invisibility Mushroom", "Teleporter", "Super Watering Can", 
+    "Basic Pot", "Flashbang"
+}
+
+local PetsPrices = {
+    ["Frog"] = 10000,
+    ["Bunny"] = 20000,
+    ["Owl"] = 25000,
+    ["Deer"] = 50000,
+    ["Robin"] = 75000,
+    ["Bee"] = 1000000,
+    ["Monkey"] = 1000000,
+    ["Black Dragon"] = 1000000,
+    ["Golden Dragonfly"] = 3000000,
+    ["Unicorn"] = 4000000,
+    ["Raccoon"] = 5000000
+}
 
 -- ============================================================
 -- Auto Bypass (Loading Screen & Tutorial)
@@ -89,6 +121,13 @@ end)
 local AutoPlantTask
 local Networking = require(game:GetService("ReplicatedStorage").SharedModules.Networking)
 
+local PlantSeedDropdown = Tabs.Farm:AddDropdown("SelectPlantSeed", {
+    Title = "Select Seeds to Plant",
+    Values = SeedsList,
+    Multi = true,
+    Default = {"Apple"},
+})
+
 local PlantToggle = Tabs.Farm:AddToggle("AutoPlantToggle", {Title = "Auto Plant (Use Seeds from Inventory)", Default = false })
 PlantToggle:OnChanged(function()
     if Options.AutoPlantToggle.Value then
@@ -113,19 +152,39 @@ PlantToggle:OnChanged(function()
                     local plantsFolder = plot:FindFirstChild("Plants")
                     if not plantsFolder then return end
 
+                    -- Validate selected seeds
+                    local selectedSeeds = Options.SelectPlantSeed.Value
+                    local validSeeds = {}
+                    if type(selectedSeeds) == "table" then
+                        for k, v in pairs(selectedSeeds) do
+                            if type(k) == "number" and type(v) == "string" then
+                                validSeeds[v] = true
+                            elseif type(k) == "string" and v == true then
+                                validSeeds[k] = true
+                            end
+                        end
+                    end
+                    if not next(validSeeds) then return end
+
                     -- Find a seed tool
                     local tool = nil
                     for _, v in ipairs(lp.Backpack:GetChildren()) do
                         if v:IsA("Tool") and v:GetAttribute("SeedTool") then
-                            tool = v
-                            break
+                            local seedName = string.gsub(v.Name, " Seed", "")
+                            if validSeeds[seedName] then
+                                tool = v
+                                break
+                            end
                         end
                     end
                     if not tool and lp.Character then
                         for _, v in ipairs(lp.Character:GetChildren()) do
                             if v:IsA("Tool") and v:GetAttribute("SeedTool") then
-                                tool = v
-                                break
+                                local seedName = string.gsub(v.Name, " Seed", "")
+                                if validSeeds[seedName] then
+                                    tool = v
+                                    break
+                                end
                             end
                         end
                     end
@@ -302,15 +361,6 @@ end)
 -- Shop Tab
 -- ============================================================
 
-local SeedsList = {
-    "Acorn", "Apple", "Baby Cactus", "Bamboo", "Banana", "Beanstalk", "Blueberry", 
-    "Buttercup", "Cactus", "Carrot", "Cherry", "Coconut", "Corn", "Dragon Fruit", 
-    "Dragon's Breath", "Ghost Pepper", "Glow Mushroom", "Gold", "Grape", "Green Bean", 
-    "Horned Melon", "Lotus", "Mango", "Moon Bloom", "Mushroom", "Pineapple", "Pinetree", 
-    "Poison Apple", "Poison Ivy", "Pomegranate", "Pumpkin", "Rainbow", "Romanesco", 
-    "Strawberry", "Sunflower", "Thorn Rose", "Tomato", "Tulip", "Venus Fly Trap"
-}
-
 local Dropdown = Tabs.Shop:AddDropdown("SelectSeed", {
     Title = "Select Seeds",
     Values = SeedsList,
@@ -329,22 +379,42 @@ BuyToggle:OnChanged(function()
                 pcall(function()
                     local currentSelection = Options.SelectSeed.Value
                     if type(currentSelection) == "table" then
+                        local hasAll = false
+                        local selected = {}
                         for k, v in pairs(currentSelection) do
                             local seedToBuy
-                            -- รองรับทั้งแบบ Array (k=เลข, v=ชื่อเมล็ด) และ Dictionary (k=ชื่อเมล็ด, v=true)
                             if type(k) == "number" and type(v) == "string" then
                                 seedToBuy = v
                             elseif type(k) == "string" and v == true then
                                 seedToBuy = k
                             end
-                            
-                            if seedToBuy then
-                                Networking.SeedShop.PurchaseSeed:Fire(seedToBuy)
+                            if seedToBuy == "All" then hasAll = true end
+                            if seedToBuy then selected[seedToBuy] = true end
+                        end
+                        
+                        local function buy(seed)
+                            if seed ~= "All" then
+                                Networking.SeedShop.PurchaseSeed:Fire(seed)
                                 task.wait(0.1)
                             end
                         end
+                        
+                        if hasAll then
+                            for _, seed in ipairs(SeedsList) do buy(seed) end
+                        else
+                            for seed, _ in pairs(selected) do buy(seed) end
+                        end
                     elseif type(currentSelection) == "string" then
-                        Networking.SeedShop.PurchaseSeed:Fire(currentSelection)
+                        if currentSelection == "All" then
+                            for _, seed in ipairs(SeedsList) do
+                                if seed ~= "All" then
+                                    Networking.SeedShop.PurchaseSeed:Fire(seed)
+                                    task.wait(0.1)
+                                end
+                            end
+                        else
+                            Networking.SeedShop.PurchaseSeed:Fire(currentSelection)
+                        end
                     end
                 end)
                 task.wait(0.5)
@@ -384,6 +454,8 @@ BuyGearToggle:OnChanged(function()
                 pcall(function()
                     local currentSelection = Options.SelectGear.Value
                     if type(currentSelection) == "table" then
+                        local hasAll = false
+                        local selected = {}
                         for k, v in pairs(currentSelection) do
                             local gearToBuy
                             if type(k) == "number" and type(v) == "string" then
@@ -391,14 +463,33 @@ BuyGearToggle:OnChanged(function()
                             elseif type(k) == "string" and v == true then
                                 gearToBuy = k
                             end
-                            
-                            if gearToBuy then
-                                Networking.GearShop.PurchaseGear:Fire(gearToBuy)
+                            if gearToBuy == "All" then hasAll = true end
+                            if gearToBuy then selected[gearToBuy] = true end
+                        end
+                        
+                        local function buy(gear)
+                            if gear ~= "All" then
+                                Networking.GearShop.PurchaseGear:Fire(gear)
                                 task.wait(0.1)
                             end
                         end
+                        
+                        if hasAll then
+                            for _, gear in ipairs(GearsList) do buy(gear) end
+                        else
+                            for gear, _ in pairs(selected) do buy(gear) end
+                        end
                     elseif type(currentSelection) == "string" then
-                        Networking.GearShop.PurchaseGear:Fire(currentSelection)
+                        if currentSelection == "All" then
+                            for _, gear in ipairs(GearsList) do
+                                if gear ~= "All" then
+                                    Networking.GearShop.PurchaseGear:Fire(gear)
+                                    task.wait(0.1)
+                                end
+                            end
+                        else
+                            Networking.GearShop.PurchaseGear:Fire(currentSelection)
+                        end
                     end
                 end)
                 task.wait(0.5)
@@ -412,14 +503,9 @@ BuyGearToggle:OnChanged(function()
     end
 end)
 
-local SellList = {"All"}
-for _, seed in ipairs(SeedsList) do
-    table.insert(SellList, seed)
-end
-
 local SellDropdown = Tabs.Shop:AddDropdown("SelectSell", {
     Title = "Select Fruits to Sell",
-    Values = SellList,
+    Values = SeedsList,
     Multi = true,
     Default = {"All"},
 })
@@ -503,22 +589,16 @@ local TargetPlayerInput = Tabs.Trade:AddInput("TargetPlayerMail", {
     Finished = false,
 })
 
-local SendSeedsList = {"All"}
-for _, v in ipairs(SeedsList) do table.insert(SendSeedsList, v) end
-
-local SendGearsList = {"All"}
-for _, v in ipairs(GearsList) do table.insert(SendGearsList, v) end
-
 local SendSeedDropdown = Tabs.Trade:AddDropdown("SelectSeedToSend", {
     Title = "Select Seeds to Send",
-    Values = SendSeedsList,
+    Values = SeedsList,
     Multi = true,
     Default = {},
 })
 
 local SendGearDropdown = Tabs.Trade:AddDropdown("SelectGearToSend", {
     Title = "Select Gears to Send",
-    Values = SendGearsList,
+    Values = GearsList,
     Multi = true,
     Default = {},
 })
@@ -624,6 +704,96 @@ SendMailToggle:OnChanged(function()
         if AutoSendMailTask then
             task.cancel(AutoSendMailTask)
             AutoSendMailTask = nil
+        end
+    end
+end)
+
+-- ============================================================
+-- Pets Tab
+-- ============================================================
+
+local PetsList = {"All"}
+for pet, _ in pairs(PetsPrices) do
+    table.insert(PetsList, pet)
+end
+
+local PetDropdown = Tabs.Pets:AddDropdown("SelectPetToBuy", {
+    Title = "Select Pets to Auto Buy",
+    Values = PetsList,
+    Multi = true,
+    Default = {"All"},
+})
+
+local AutoBuyPetTask
+local BuyPetToggle = Tabs.Pets:AddToggle("AutoBuyPetToggle", {Title = "Auto Buy Selected Pets", Default = false })
+
+BuyPetToggle:OnChanged(function()
+    if Options.AutoBuyPetToggle.Value then
+        AutoBuyPetTask = task.spawn(function()
+            local PlayerStateClient = require(game:GetService("ReplicatedStorage").ClientModules.PlayerStateClient)
+            while Options.AutoBuyPetToggle.Value do
+                pcall(function()
+                    local selectedPets = Options.SelectPetToBuy.Value
+                    local targetPets = {}
+                    local hasAll = false
+                    
+                    if type(selectedPets) == "table" then
+                        for k, v in pairs(selectedPets) do
+                            local name = type(k) == "number" and v or k
+                            if name == "All" and (v == true or type(k) == "number") then hasAll = true end
+                            if v == true or type(k) == "number" then targetPets[name] = true end
+                        end
+                    end
+                    
+                    if hasAll then
+                        for pet, _ in pairs(PetsPrices) do targetPets[pet] = true end
+                    end
+                    
+                    local replicaData = PlayerStateClient.GetLocalReplica().Data
+                    local myMoney = replicaData.Sheckles or replicaData.Coins or replicaData.Cash or replicaData.Money or 0
+                    local lp = game.Players.LocalPlayer
+                    local char = lp.Character
+                    local hrp = char and char:FindFirstChild("HumanoidRootPart")
+                    
+                    if not hrp then return end
+
+                    for _, obj in ipairs(workspace:GetDescendants()) do
+                        if obj:IsA("Model") and targetPets[obj.Name] then
+                            local prompt = obj:FindFirstChildWhichIsA("ProximityPrompt", true)
+                            if prompt and prompt.Enabled then
+                                local price = PetsPrices[obj.Name] or 0
+                                if myMoney >= price then
+                                    local oldPos = hrp.CFrame
+                                    local targetCFrame = obj.PrimaryPart and obj.PrimaryPart.CFrame or obj:GetModelCFrame()
+                                    if targetCFrame then
+                                        hrp.CFrame = targetCFrame
+                                        task.wait(0.3)
+                                        fireproximityprompt(prompt)
+                                        task.wait(0.5)
+                                        
+                                        -- Escort back to garden safely
+                                        local plotId = lp:GetAttribute("PlotId")
+                                        if plotId then
+                                            local plot = workspace.Gardens:FindFirstChild("Plot" .. tostring(plotId))
+                                            if plot then
+                                                local plotCFrame = plot.PrimaryPart and plot.PrimaryPart.CFrame or plot:GetModelCFrame()
+                                                hrp.CFrame = plotCFrame + Vector3.new(0, 10, 0)
+                                                task.wait(1)
+                                            end
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end)
+                task.wait(1)
+            end
+        end)
+    else
+        if AutoBuyPetTask then
+            task.cancel(AutoBuyPetTask)
+            AutoBuyPetTask = nil
         end
     end
 end)
