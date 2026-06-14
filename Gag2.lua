@@ -38,19 +38,13 @@ task.spawn(function()
     
     -- 2. ข้ามหน้าโหลดเกม (สำหรับคนเปิดหลายจอแล้วเมาส์ไม่ได้อยู่ในจอ)
     task.spawn(function()
-        local vim = game:GetService("VirtualInputManager")
-        for i = 1, 60 do -- พยายามเช็คเป็นเวลา 60 วินาทีเผื่อเกมโหลดช้า
-            pcall(function()
-                local loadingGui = game.Players.LocalPlayer.PlayerGui:FindFirstChild("LoadingGui")
-                if loadingGui and loadingGui:FindFirstChild("Variant1Frame") and loadingGui.Variant1Frame.Visible then
-                    local screenCenter = Vector2.new(workspace.CurrentCamera.ViewportSize.X / 2, workspace.CurrentCamera.ViewportSize.Y / 2)
-                    vim:SendMouseButtonEvent(screenCenter.X, screenCenter.Y, 0, true, game, 0)
-                    task.wait(0.1)
-                    vim:SendMouseButtonEvent(screenCenter.X, screenCenter.Y, 0, false, game, 0)
-                end
-            end)
-            task.wait(1)
-        end
+        local VirtualInputManager = game:GetService("VirtualInputManager")
+
+        local screenCenter = Vector2.new(workspace.CurrentCamera.ViewportSize.X / 2, workspace.CurrentCamera.ViewportSize.Y / 2)
+        task.wait(25)
+        VirtualInputManager:SendMouseButtonEvent(screenCenter.X, screenCenter.Y, 0, true, game, 0)
+        task.wait(0.1)
+        VirtualInputManager:SendMouseButtonEvent(screenCenter.X, screenCenter.Y, 0, false, game, 0)
     end)
 end)
 
@@ -281,6 +275,25 @@ SellFullToggle:OnChanged(function()
         if AutoSellFullTask then
             task.cancel(AutoSellFullTask)
             AutoSellFullTask = nil
+        end
+    end
+end)
+
+local AntiAfkConnection
+local AntiAfkToggle = Tabs.Farm:AddToggle("AntiAfkToggle", {Title = "Advanced Anti AFK", Default = false })
+AntiAfkToggle:OnChanged(function()
+    if Options.AntiAfkToggle.Value then
+        if not AntiAfkConnection then
+            local VirtualUser = game:GetService("VirtualUser")
+            AntiAfkConnection = game.Players.LocalPlayer.Idled:Connect(function()
+                VirtualUser:CaptureController()
+                VirtualUser:ClickButton2(Vector2.new())
+            end)
+        end
+    else
+        if AntiAfkConnection then
+            AntiAfkConnection:Disconnect()
+            AntiAfkConnection = nil
         end
     end
 end)
@@ -625,6 +638,31 @@ InterfaceManager:SetLibrary(Fluent)
 SaveManager:IgnoreThemeSettings()
 SaveManager:SetIgnoreIndexes({})
 
+-- Fix SaveManager Dropdown Multi Bug
+SaveManager.Parser.Dropdown = {
+    Save = function(idx, object)
+        return { type = "Dropdown", idx = idx, value = object.Value, mutli = object.Multi }
+    end,
+    Load = function(idx, data)
+        if SaveManager.Options[idx] then 
+            local val = data.value
+            if data.mutli and type(val) == "table" then
+                local dict = {}
+                for k, v in pairs(val) do
+                    if type(k) == "number" and type(v) == "string" then
+                        dict[v] = true
+                    else
+                        dict[k] = v
+                    end
+                end
+                SaveManager.Options[idx]:SetValue(dict)
+            else
+                SaveManager.Options[idx]:SetValue(val)
+            end
+        end
+    end,
+}
+
 InterfaceManager:SetFolder("AProject")
 SaveManager:SetFolder("AProject/config")
 
@@ -644,3 +682,83 @@ Fluent:Notify({
 })
 
 SaveManager:LoadAutoloadConfig()
+
+-- ============================================================
+-- Mobile UI Toggle Button (Draggable)
+-- ============================================================
+task.spawn(function()
+    local CoreGui = game:GetService("CoreGui")
+    local existingToggle = CoreGui:FindFirstChild("AProjectMobileToggle")
+    if existingToggle then existingToggle:Destroy() end
+
+    local ScreenGui = Instance.new("ScreenGui")
+    ScreenGui.Name = "AProjectMobileToggle"
+    ScreenGui.Parent = CoreGui
+    ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+    local ToggleButton = Instance.new("TextButton")
+    ToggleButton.Parent = ScreenGui
+    ToggleButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+    ToggleButton.Position = UDim2.new(0, 50, 0, 50)
+    ToggleButton.Size = UDim2.new(0, 45, 0, 45)
+    ToggleButton.Font = Enum.Font.GothamBold
+    ToggleButton.Text = "UI"
+    ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+    ToggleButton.TextSize = 18
+    ToggleButton.AutoButtonColor = true
+
+    local UICorner = Instance.new("UICorner")
+    UICorner.CornerRadius = UDim.new(0, 10)
+    UICorner.Parent = ToggleButton
+
+    local UIStroke = Instance.new("UIStroke")
+    UIStroke.Color = Color3.fromRGB(100, 180, 255)
+    UIStroke.Thickness = 2
+    UIStroke.Parent = ToggleButton
+
+    local UserInputService = game:GetService("UserInputService")
+    local dragging = false
+    local dragInput
+    local dragStart
+    local startPos
+    local dragStartPos = Vector3.new()
+
+    local function update(input)
+        local delta = input.Position - dragStart
+        ToggleButton.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+    end
+
+    ToggleButton.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            dragging = true
+            dragStart = input.Position
+            startPos = ToggleButton.Position
+            dragStartPos = input.Position
+            
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    dragging = false
+                    local dist = (input.Position - dragStartPos).Magnitude
+                    if dist < 15 then
+                        local vim = game:GetService("VirtualInputManager")
+                        vim:SendKeyEvent(true, Enum.KeyCode.LeftControl, false, game)
+                        task.wait()
+                        vim:SendKeyEvent(false, Enum.KeyCode.LeftControl, false, game)
+                    end
+                end
+            end)
+        end
+    end)
+
+    ToggleButton.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+            dragInput = input
+        end
+    end)
+
+    UserInputService.InputChanged:Connect(function(input)
+        if input == dragInput and dragging then
+            update(input)
+        end
+    end)
+end)
