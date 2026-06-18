@@ -1,1 +1,1961 @@
---[[ v1.0.0 https://wearedevs.net/obfuscator ]] return(function(...)local N={"\050\079\051\068\043\118\047\075","\047\057\097\068\047\114\061\061","\113\076\097\066\115\119\061\061","\086\120\048\090\047\111\112\061","\086\078\083\086\088\116\087\076\078\108\105\065","\120\081\049\112\049\102\109\108\054\043\115\105\057\085\111\047\112\109\061\061";"\087\104\099\105\101\067\100\105\056\050\070\071\102\067\090\061","\049\107\069\108\050\097\047\105\085\076\109\119\050\108\055\057\087\085\049\061","\047\057\051\108\047\057\051\084\113\109\061\061";"\047\086\099\121\043\118\071\061";"\086\120\048\078\087\119\061\061","\086\120\048\052\043\079\100\075\101\056\061\061","\080\107\100\108\050\077\113\075\113\056\061\061";"\100\102\109\088\043\102\099\065\080\109\061\061","\043\111\097\108\115\056\061\061";"\087\057\068\118\080\102\047\057\117\051\073\112\117\057\088\090\080\120\050\061","\043\076\048\069\047\107\054\108\050\079\075\084\047\119\061\061","\050\076\054\069\043\076\119\061";"\047\079\074\110\043\118\071\061";"\101\113\118\108\118\084\088\106\081\077\113\098\067\070\074\105\098\102\080\078\054\114\061\061";"\050\057\068\110\043\066\054\073\100\077\048\114\105\077\100\049\111\075\050\061","\057\070\113\055\120\109\061\061";"","\113\111\088\119\087\111\054\053","\050\057\051\108\043\111\051\108\087\086\100\069\087\079\074\075","\113\076\097\065\043\076\117\061","\113\076\048\066\113\107\099\052\043\079\050\061","\087\057\069\069\050\109\061\061";"\105\109\061\061","\054\120\051\108\101\077\088\098\051\102\054\115\047\117\052\104\080\109\061\061";"\089\083\110\117\101\100\115\049\090\114\061\061","\050\079\097\084\047\076\048\068";"\105\107\054\054\105\086\075\121\111\076\052\105\111\056\061\061","\080\086\054\049\043\057\097\055\047\111\114\061","\117\079\074\090\117\108\100\057\043\086\097\086\054\077\120\087\051\114\061\061";"\070\087\053\080\121\118\110\090\104\105\068\070\076\065\113\072\119\109\061\061","\114\117\049\108\043\079\068\112\117\066\069\077\113\055\113\055\087\108\047\102","\047\057\120\069\113\076\054\089";"\089\054\122\121\087\074\069\067\119\112\106\066\109\089\098\098\105\102\080\074\050\050\049\090\049\090\055\110\090\112\112\114\107\079\108\087\069\071\100\053\115\078\082\052\102\104\051\107\050\088\117\104\076\115\090\117\121\100\051\121\122\087\107\110\117\072\075\122\115\100\079\079\114\065\121\083\069\116\084\100\088\048\071\055\073\081\115\122\051\051\054\085\068\074\052\051\102\071\082\069\120\056\061\061";"\087\075\047\084\050\086\052\114\085\076\088\084\054\097\052\069\101\114\061\061";"\113\076\048\084\113\111\120\065\047\086\071\061";"\043\098\071\061";"\113\102\069\057\050\118\047\084\085\076\068\099\080\097\077\057\100\118\114\061","\111\098\073\115\117\056\061\061","\087\078\075\108\047\114\061\061","\047\118\054\120\087\109\061\061";"\086\120\048\068\047\086\100\069\113\076\097\065\043\076\117\061","\085\102\069\107\051\066\047\077\085\051\047\074\111\085\056\119";"\068\055\055\067\120\065\087\089\072\108\102\119\075\117\109\061","\087\057\048\084\087\057\097\108","\111\097\073\097\050\108\051\090\054\102\073\112\080\118\047\090\113\056\061\061","\105\065\109\075\047\103\089\052\105\109\061\061","\050\118\100\121\115\111\088\078","\043\076\051\084";"\100\118\100\118\080\075\113\079\043\057\099\115\047\055\074\116";"\043\098\077\061","\047\051\075\079\100\117\120\083\049\079\048\070\050\055\099\084","\051\076\097\068\050\076\051\121\071\077\100\075\113\076\051\102\113\076\051\055\071\114\061\061"}for R,v in ipairs({{-234911-(-234912),743462-743404};{801482-801481;493265+-493212};{137570-137516;345611-345553}})do while v[-32121-(-32122)]<v[-658172-(-658174)]do N[v[98093+-98092]],N[v[-117872-(-117874)]],v[1004608-1004607],v[-82529-(-82531)]=N[v[301259-301257]],N[v[87042-87041]],v[-678099-(-678100)]+(693535-693534),v[557984+-557982]-(-674578+674579)end end local function R(R)return N[R-(947513-888301)]end do local R=string.sub local v=string.len local h={O=76197+-76159;A=50721+-50687,W=-391842-(-391866);J=-924963+925012;p=-68610-(-68666);n=444433+-444386;["\051"]=226200-226179;x=435539-435486,K=547355+-547318;T=-380396+380442,t=-602899-(-602914);["\043"]=884472+-884445;["\048"]=337203-337142;s=-402066-(-402092),H=-75216-(-75276);b=-69+72,z=993116+-993085,l=-926454+926506;a=223977+-223972;["\047"]=645315+-645290;["\056"]=-110952+110952;V=-216136-(-216159);I=420139-420138;["\055"]=-62634-(-62670),C=35848+-35786;["\050"]=706347+-706319,Q=-582727-(-582769),["\054"]=433863-433850;m=-339353+339385;f=-518256-(-518291);i=-160838-(-160852);G=-505190-(-505198),["\049"]=-207468-(-207480),u=-721476+721496,["\052"]=-181875-(-181916),M=848068+-848064,E=858602-858569;c=777789-777780;L=865305-865299,["\053"]=-888138-(-888181);y=480706-480656,X=201122+-201065,h=-359014+359025,N=-989004+989043;v=517311+-517256,B=-728470-(-728521),Z=778662-778618,Y=-694329+694369;U=-254219-(-254238),P=-1038965-(-1038983),q=996239+-996210,R=64919-64860;k=36236+-36229;e=-871523+871553,o=-341971-(-341993),j=48311-48248;g=958652-958650,d=-387394+387411,F=772112+-772054,S=-406186-(-406196),D=1046775-1046730,["\057"]=225392-225338;w=-476189-(-476237);r=818804+-818788}local o=table.concat local T=string.char local E=math.floor local V=N local l=table.insert local a=type for N=-621467-(-621468),#V,731788+-731787 do local w=V[N]if a(w)=="\115\116\114\105\110\103"then local a=v(w)local L={}local X=121241-121240 local n=-358111-(-358111)local U=-355575-(-355575)while X<=a do local N=R(w,X,X)local v=h[N]if v then n=n+v*(-433489-(-433553))^((-321558-(-321561))-U)U=U+(739627+-739626)if U==-127861-(-127865)then U=871980+-871980 local N=E(n/(500473-434937))local R=E((n%(-636566+702102))/(-685869-(-686125)))local v=n%(-915564-(-915820))l(L,T(N,R,v))n=-328336-(-328336)end elseif N=="\061"then l(L,T(E(n/(218242+-152706))))if X>=a or R(w,X+(858197+-858196),X+(104198+-104197))~="\061"then l(L,T(E((n%(-693020-(-758556)))/(-750471+750727))))end break end X=X+(548762-548761)end V[N]=o(L)end end end return(function(N,h,o,T,E,V,l,X,Z,n,M,b,c,a,U,v,L,w,x,Y)Y,c,Z,w,L,a,M,v,U,x,n,b,X=function(N,R)local h=n(R)local o=function(o,T,E,V,l)return v(N,{o;T;E;V;l},R,h)end return o end,function(N,R)local h=n(R)local o=function()return v(N,{},R,h)end return o end,function(N,R)local h=n(R)local o=function(o,T,E)return v(N,{o;T;E},R,h)end return o end,{},function()X=(1021060+-1021059)+X w[X]=967421-967420 return X end,{},function(N,R)local h=n(R)local o=function(o,T,E,V)return v(N,{o,T;E,V},R,h)end return o end,function(v,o,T,E)local C,n,j,p,x,l,A,t,I,d,e,H,z,u,B,f,i,G,W,k,J,y,X,q,S,s,U,r,w,F,D,m,g,P while v do if v<7722770-(-469576)then if v<693248+4566619 then if v<-121526+2988106 then if v<1596876-189536 then if v<-508331+1098349 then if v<1275622-793100 then if v<74172-(-327605)then r=425684-425684 D=#G p=D==r v=p and 15113286-(-726143)or-930511+5447442 else D=b(D)s=nil e=b(e)S=nil p=nil U=b(U)v=8733317-(-462630)X=b(X)x=b(x)X=nil n=b(n)C=b(C)n=nil j=b(j)g=nil p=-274159+274160 j=R(20008-(-39214))y=nil S=R(-327139+386361)x=N[S]G=nil S=R(243144-183918)C=R(-865268-(-924528))U=x[S]g=R(66921-7688)x=L()a[x]=U S=N[j]j=R(-836188-(-895427))s=L()U=S[j]y={}e=L()j=N[g]g=R(173449-114183)S=j[g]g=N[C]C=R(-491969+551204)j=g[C]G={}C=L()g=-697782+697782 a[C]=g g=-825165+825167 a[e]=g g={}a[s]=y D=689868-689612 r=D D=-75292-(-75293)y=-250749+250749 u=D D=-733668+733668 m=u<D D=p-u end else e=R(-850048+909279)C=N[e]l=C v=6801020-604254 end else if v<244536-(-956421)then v=13339070-(-770644)I=-505976-(-505978)z=t[I]I=a[k]A=z==I i=A else v=-182966+3072798 end end else if v<-645254+3032724 then if v<-444717+2540715 then if v<548905-(-1029459)then l={}v=N[R(72863+-13605)]else n=n+x j=not S X=n<=U X=j and X j=n>=U j=S and j X=j or X j=7358029-432696 v=X and j X=876010+2573360 v=v or X end else v=true v=v and 15419933-(-456801)or-215635+2662465 end else if v<789075+1830396 then v=c(6038014-(-585087),{U})B={v()}l={h(B)}v=N[R(-53118+112368)]else u=R(-307876-(-367139))q=R(-712153+771387)v=N[q]r=N[u]q=v(r)v=R(295248-235999)N[v]=q v=13523270-(-556374)end end end else if v<3911087-410101 then if v<504535+2697265 then if v<-155572+3253539 then if v<3871993-886861 then l={X}v=N[R(929937+-870709)]else g=e q=R(-376797+436057)B=N[q]q=R(-638190+697442)W=B[q]B=W(w,g)W=a[T[390225-390219]]q=W()D=B+q q=108793+-108792 p=D+S D=363697+-363441 g=nil G=p%D S=G D=n[X]B=S+q W=U[B]p=D..W n[X]=p v=444424+13415388 end else l=-1012688+14153357 X=R(226511+-167260)n=15628863-888879 w=X^n v=l-w l=R(958785+-899541)w=v v=l/w l={v}v=N[R(227437-168200)]end else if v<3433884-(-20992)then v=a[T[-357789-(-357799)]]X=a[T[525453+-525442]]w[v]=X v=a[T[-862472-(-862484)]]X={v(w)}v=N[R(12818+46446)]l={h(X)}else v=7215327-(-950217)a[X]=l end end else if v<50243+5010017 then if v<4616930-(-285427)then f=-86658-(-86659)D=-142702-(-142703)r=#G p=U(D,r)D=S(G,p)r=a[s]m=D-f v=-606923+786141 u=j(m)r[D]=u p=nil D=nil else i=a[X]v=i and 9561875-(-1020871)or 2457389-(-998340)l=i end else if v<15914+5185518 then u=L()J=30963-30708 m=R(-377465-(-436687))a[u]=W l=N[m]m=R(1076853-1017614)H=274288-274288 f=4510+-4410 v=l[m]m=240143-240142 t=818692+-818690 l=v(m,f)m=L()a[m]=l f=61170+-61170 v=a[j]l=v(f,J)J=-978194+978195 f=L()a[f]=l v=a[j]d=a[m]k=952319+-952318 l=v(J,d)J=L()a[J]=l A=R(-580761-(-639995))l=a[j]d=l(k,t)l=-1008300+1008301 v=d==l P=-996823-(-1006823)d=L()t=R(-107814+167050)a[d]=v F=N[A]z=a[j]I={z(H,P)}v=R(801284-742031)A=F(h(I))l=R(162258-102999)v=p[v]F=R(-313415+372651)i=A..F k=t..i t=R(262302+-203077)v=v(p,l,k)k=L()a[k]=v l=N[t]i=c(7852605-891664,{j,u;e;n;X,D;d;k,m;J,f;C})t={l(i)}v={h(t)}t=v v=a[d]v=v and 5366760-312577 or 13806241-(-85565)else g=R(776548-717323)l=R(494075+-434827)U=R(425429+-366195)C=Y(9623853-(-933798),{})v=N[l]w=a[T[-169463+169467]]n=N[U]j=N[g]g={j(C)}S={h(g)}j=-1040906-(-1040908)x=S[j]U=n(x)n=R(586592+-527333)X=w(U,n)w={X()}l=v(h(w))X=a[T[-54587+54592]]w=l v=X and 1028866+7175064 or 6416212-(-858491)l=X end end end end else if v<-778452+7706479 then if v<6934103-631805 then if v<-67439+6032293 then if v<1023640+4768228 then if v<796767+4835225 then X=a[T[978338-978336]]n=a[T[-828053-(-828056)]]w=X==n v=8985461-961052 l=w else S=l j=R(340530+-281308)l=N[j]j=R(1032602-973363)v=l[j]j=L()a[j]=v s=R(818736-759503)g=R(157570+-98337)l=N[g]g=R(706497+-647240)v=l[g]y=N[s]g=v e=v C=y v=y and 602532+6782595 or 14745474-966923 end else U=nil v=2924508-34676 j=nil S=nil end else if v<5966596-(-230069)then n=R(701919-642686)v=N[R(237561-178346)]X=N[n]n=R(-124191+183457)w=X[n]n=a[T[-542322+542323]]X={w(n)}l={h(X)}else y=368100+-368035 p=c(3808163-634126,{})C=L()e=708275-708272 a[C]=l v=a[j]l=v(e,y)e=L()a[e]=l v=120384-120384 G=R(-70230-(-129455))l=N[G]G={l(p)}y=v v=426027-426027 s=v v={h(G)}l=-322244-(-322246)G=v v=G[l]p=v l=R(423455+-364207)q=R(-1000681+1059915)v=N[l]D=a[n]B=N[q]q=B(p)B=R(-39559+98818)W=D(q,B)D={W()}l=v(h(D))D=L()a[D]=l W=a[e]l=932363+-932362 B=W W=660668-660667 q=W v=-320158+10831698 W=683757+-683757 r=q<W W=l-q end end else if v<-128896+6911234 then if v<5607927-(-1023225)then if v<7292425-697098 then r=R(1035659+-976410)v=N[r]r=R(866374+-807111)N[r]=v v=216836+13862808 else v=-834081+11016255 end else v=a[T[487899+-487892]]v=v and 7833725-(-967521)or 12347497-362721 end else if v<903612+5978666 then a[X]=W v=a[X]v=v and 15091652-(-501065)or 543271+8408129 else g=937421+-937421 X=n C=-171803-(-172058)v=a[T[-995969+995970]]j=v(g,C)w[X]=j v=1718617-(-312784)X=nil end end end else if v<-998518+8856269 then if v<7388877-(-2488)then if v<6347391-(-1037359)then if v<-965166+8184070 then X=a[T[766136-766135]]x=-706591-(-706593)U=-700622-(-700623)n=X(U,x)X=266077-266076 w=n==X v=w and 7186631-(-837778)or 788752+4485924 l=w else a[T[394243-394238]]=l w=nil v=6185735-(-545597)end else G=R(-351146-(-410379))v=-107524+13886075 s=N[G]G=R(-1044321+1103552)y=s[G]C=y end else if v<-47138+7472975 then X=a[T[1012050-1012047]]n=425736+-425704 w=X%n U=a[T[306037+-306033]]C=240664+-240662 j=a[T[-81285+81287]]y=-786829-(-786842)p=a[T[-956125+956128]]G=p-w p=968392-968360 s=G/p e=y-s g=C^e S=j/g v=-696712+6893244 x=U(S)g=-331827-(-331828)U=-641533+4295608829 n=x%U x=-631843-(-631845)U=x^w X=n/U w=nil U=a[T[-97419+97423]]j=X%g g=4295504392-537096 C=-450585-(-450841)S=j*g j=98702-33166 x=U(S)U=a[T[-697051-(-697055)]]S=U(X)n=x+S x=-408031+473567 U=n%x S=n-U x=S/j j=-733841+734097 S=U%j g=U-S j=g/C C=-530475-(-530731)g=x%C y=94350+-94094 n=nil e=x-g C=e/y U=nil X=nil e={S,j,g;C}S=nil g=nil C=nil x=nil a[T[913186-913185]]=e j=nil else u=R(-973027-(-1032270))C=R(-639534+698804)l={}j=R(359578-300322)x=R(-19557+78773)U=N[x]g=976872+5260515549609 x=U()s=22344560333-224963 f=6416036550091-(-538080)S=n(j,g)G=R(23851-(-35376))r=316354+15991050963284 e=13829626842332-947125 U=X[S]g=n(C,e)y=R(286891+-227677)D=R(7018-(-52220))j=X[g]d=-896270+341517888941 p=21532633281181-(-685197)g=true e=n(y,s)J=R(612901+-553688)C=X[e]s=n(G,p)y=X[s]s=false p=n(D,r)e=false G=X[p]r=n(u,f)D=X[r]f=n(J,d)r=false u=X[f]f=520911+-520881 p={[D]=r;[u]=f}S={[j]=g,[C]=e,[y]=s,[G]=p}x[U]=S j=R(777842-718575)x=R(98987+-39763)U=N[x]S=N[j]y=-397372+31693575801314 e=R(330516-271270)C=n(e,y)g=X[C]v=N[R(111039-51792)]C=R(806726+-747506)C=S[C]j={C(S,g)}n=nil X=nil x=U(h(j))U=x()end end else if v<-828689+8975141 then if v<494235+7447698 then D=#G r=1025935+-1025935 p=D==r v=-269280+4786211 else v=l and-83759+5336713 or-529932+7261264 end else if v<9188051-1014931 then u=b(u)m=b(m)d=b(d)k=b(k)J=b(J)t=nil v=297061+10214479 f=b(f)else n=-119529+119530 X=a[T[-581601-(-581604)]]w=X~=n v=w and 8308696-900668 or 141933+9752393 end end end end end else if v<-132055+13142343 then if v<10494262-327319 then if v<572687+8569173 then if v<9643006-701959 then if v<8295082-(-603523)then if v<9428007-707953 then n=a[T[357036+-357030]]X=n==w l=X v=224802+7049901 else w=R(432183+-372966)v=N[w]X=a[T[-548851-(-548859)]]n=543595-543595 w=v(X,n)v=-378971+12363747 end else w=o[809830+-809829]X=o[995932-995930]v=a[T[-3938+3939]]n=v v=n[X]v=v and-842982+2175342 or-402127+12324394 end else if v<8595803-(-471174)then v=true v=978602+1468228 else q=-291917+291918 r=-46664+46670 v=a[j]B=v(q,r)r=R(-292085+351334)v=R(-120203-(-179452))N[v]=B q=N[r]r=-578780-(-578782)v=q>r v=v and 515376+2141592 or-616970+7130901 end end else if v<10055300-153754 then if v<-34850+9584022 then if v<-403921+9586623 then v=true v=v and 9820294-729091 or-314+1559761 else D=D+u f=not m p=D<=r p=f and p f=D>=r f=m and f p=f or p f=11384531-414551 v=p and f p=6921268-(-972023)v=v or p end else X=a[T[399933+-399930]]n=-623522-(-623725)w=X*n X=498934-498677 v=7519554-(-659896)l=w%X a[T[712764+-712761]]=l end else if v<10794185-782788 then a[X]=i H=-531919+531920 I=a[J]z=I+H A=t[z]F=y+A A=372679-372423 v=F%A z=a[f]A=s+z y=v v=257867+7907677 z=664772-664516 F=A%z s=F else x=R(528336+-469069)U=N[x]x=R(-962262-(-1021503))x=U[x]x=x(U)v=x and 7850442-412859 or 16801506-356074 end end end else if v<10848444-138184 then if v<-945702+11509270 then if v<10905491-373107 then if v<9757905-(-607368)then v=true v=v and 320370+16216020 or 10508340-(-346053)else W=W+q l=W<=B u=not r l=u and l u=W>=B u=r and u l=u or l u=-6142+5146293 v=l and u l=-334435+16494453 v=v or l end else X=R(1037094+-977854)l=12764209-435788 n=16401134-(-276933)w=X^n v=l-w w=v l=R(-959656-(-1018877))v=l/w l={v}v=N[R(327621-268359)]end else if v<11093090-461389 then F=v I=-535526+535527 z=t[I]I=false A=z==I i=A v=A and 425660-(-172307)or 589422+13520292 else l=R(558682-499465)w=R(-765237+824502)v=N[l]l=v(w)l={}v=N[R(-832041-(-891264))]end end else if v<12125647-557765 then if v<99909+10784948 then v=N[R(500653-441411)]l={}else p=D f=p v=925372+8270575 G[p]=f p=nil end else if v<-626365+12557010 then v={}e=-704482-(-704483)a[T[-977927+977929]]=v g=R(108061+-48801)x=-847276+35184372936108 l=a[T[-264142+264145]]U=l v=-74364+13934176 l=X%x a[T[-956991+956995]]=l j=639458-639203 S=X%j j=613731-613729 x=S+j a[T[-711564+711569]]=x j=N[g]y=e e=561205+-561205 g=R(-390420+449681)S=j[g]j=S(w)S=R(131875-72645)s=y<e g=-521731-(-521732)e=g-y n[X]=S C=j S=409276+-409024 else v={}w=v X=-998129+998130 v=-917823+2949224 n=a[T[-245238-(-245247)]]U=n n=655863-655862 x=n n=146548-146548 S=x<n n=X-x end end end end else if v<15283497-(-367260)then if v<-105037+14060321 then if v<273105+13576924 then if v<-1003834+14753033 then if v<-71450+13620138 then v=-432591+6212208 S=a[x]l=S else v=5967475-(-823995)B=y==s W=B end else l=C v=e v=C and 5858616-(-338150)or 1059595-521915 end else if v<14094636-229962 then G=not s e=e+y g=e<=C g=G and g G=e>=C G=s and G g=G or g G=223352+2814989 v=g and G g=4975442-(-873850)v=v or g else F=a[X]v=F and 676105+14688651 or-522111+10440053 i=F end end else if v<15272884-973749 then if v<13120275-(-961838)then v=139657+9013215 else v=F v=3216474-(-239255)l=i end else if v<-320252+15857006 then A=-395804-(-395805)F=t[A]v=-309619+10227561 i=F else v=-393178-(-808606)end end end else if v<16150776-(-10549)then if v<15086897-(-783674)then if v<16088800-241580 then if v<15239423-(-562753)then w=a[T[-750737+750738]]l=#w w=-932251-(-932251)v=l==w v=v and 174747+15690717 or 5902642-(-293890)else D=L()p={}t=R(-926896-(-986150))A=nil S=nil f={}u=L()a[D]=p U=nil j=nil m=R(-410026-(-469258))p=L()r=Z(-121473+15836123,{D;C;e,x})a[p]=r v=167974+16277458 r={}d=R(226601-167382)g=nil x=b(x)a[u]=r r=N[m]k=a[u]J={[d]=k,[t]=A}G=nil m=r(f,J)r=M(335958+8577672,{u;D;s,C;e;p})u=b(u)x=R(-104252-(-163519))D=b(D)e=b(e)X=m y=nil n=r s=b(s)C=b(C)U=N[x]p=b(p)x=R(130417+-71176)x=U[x]x=x(U)end else n=-406673+406862 X=a[T[-498692-(-498694)]]w=X*n X=20456330199141-334640 l=w+X w=35184372570543-481711 v=l%w a[T[-956506+956508]]=v w=a[T[905519-905516]]v=9835771-(-58555)X=-986616+986617 l=w~=X end else if v<15816524-(-201237)then v=8625990-(-526882)else B=a[X]W=B v=B and 12725232-(-1018609)or 6812365-20895 end end else if v<189751+16266658 then if v<117412+16212373 then v=true a[T[-428229-(-428230)]]=v l={}v=N[R(124306-65051)]else S=R(-253200-(-312468))C=34716112927141-(-263552)v=-14591+10180820 x=N[S]g=R(-202931+262160)j=n(g,C)S=X[j]U=x[S]x=U()end else if v<62753+16504436 then l=R(789609+-730360)v=N[l]w=R(29767-(-29496))l=N[w]w=R(-389041-(-448304))N[w]=v w=R(-88937+148186)v=528604+9653570 N[w]=l w=a[T[-814798+814799]]X=w()else v=true X=L()w=o a[X]=v U=L()n=R(127632-68372)l=N[n]x=L()n=R(455005+-395760)v=l[n]n=L()a[n]=v j=R(358812+-299587)v=c(-217872+10886722,{})g=c(879589+15363902,{x})a[U]=v v=false a[x]=v S=N[j]j=S(g)v=j and 12929495-(-550644)or 5707439-(-72178)l=j end end end end end end end v=#E return h(l)end,function(N)local R,v=186777-186776,N[-264191+264192]while v do w[v],R=w[v]-(-181734+181735),(429019+-429018)+R if-745722-(-745722)==w[v]then w[v],a[v]=nil,nil end v=N[R]end end,function(N,R)local h=n(R)local o=function(...)return v(N,{...},R,h)end return o end,function(N)for R=989561-989560,#N,636506+-636505 do w[N[R]]=w[N[R]]+(-898771-(-898772))end if o then local v=o(true)local h=E(v)h[R(592663+-533444)],h[R(-535479+594697)],h[R(-378543-(-437812))]=N,U,function()return-1928926-604883 end return v else return T({},{[R(682953+-623735)]=U,[R(-52265-(-111484))]=N,[R(-883553-(-942822))]=function()return 508715+-3042524 end})end end,function(N)w[N]=w[N]-(-448889+448890)if 53957-53957==w[N]then w[N],a[N]=nil,nil end end,911336-911336 return(x(485678+16135292,{}))(h(l))end)(getfenv and getfenv()or _ENV,unpack or table[R(-424864+484095)],newproxy,setmetatable,getmetatable,select,{...})end)(...)
+if getgenv().Gag2RunningID then
+    getgenv().Gag2RunningID = getgenv().Gag2RunningID + 1
+else
+    getgenv().Gag2RunningID = 1
+end
+local currentID = getgenv().Gag2RunningID
+
+repeat task.wait() until game:IsLoaded()
+
+-- ÃƒÂ Ã‚Â¸Ã‚ÂªÃƒÂ Ã‚Â¸Ã‚Â¸ÃƒÂ Ã‚Â¹Ã‹â€ ÃƒÂ Ã‚Â¸Ã‚Â¡ÃƒÂ Ã‚Â¸Ã¢â‚¬ÂÃƒÂ Ã‚Â¸Ã‚ÂµÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã‚Â¥ÃƒÂ Ã‚Â¸Ã‚Â¢ÃƒÂ Ã‚Â¹Ã…â€™ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã…Â¾ÃƒÂ Ã‚Â¸Ã‚Â·ÃƒÂ Ã‚Â¹Ã‹â€ ÃƒÂ Ã‚Â¸Ã‚Â­ÃƒÂ Ã‚Â¸Ã¢â‚¬ÂºÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã‚Â­ÃƒÂ Ã‚Â¸Ã¢â‚¬Â¡ÃƒÂ Ã‚Â¸Ã‚ÂÃƒÂ Ã‚Â¸Ã‚Â±ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ÃƒÂ Ã‚Â¸Ã¢â‚¬ÂºÃƒÂ Ã‚Â¸Ã‚Â±ÃƒÂ Ã‚Â¸Ã‚ÂÃƒÂ Ã‚Â¸Ã‚Â«ÃƒÂ Ã‚Â¸Ã‚Â² GitHub Rate Limit ÃƒÂ Ã‚Â¸Ã¢â‚¬Â¢ÃƒÂ Ã‚Â¸Ã‚Â­ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã¢â‚¬ÂºÃƒÂ Ã‚Â¸Ã‚Â´ÃƒÂ Ã‚Â¸Ã¢â‚¬ÂÃƒÂ Ã‚Â¸Ã‚Â«ÃƒÂ Ã‚Â¸Ã‚Â¥ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã‚Â¢ÃƒÂ Ã‚Â¸Ã‹â€ ÃƒÂ Ã‚Â¸Ã‚Â­ÃƒÂ Ã‚Â¸Ã…Â¾ÃƒÂ Ã‚Â¸Ã‚Â£ÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã‚Â­ÃƒÂ Ã‚Â¸Ã‚Â¡ÃƒÂ Ã‚Â¸Ã‚ÂÃƒÂ Ã‚Â¸Ã‚Â±ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢
+task.wait(math.random(10, 50) / 10) 
+
+local function safeLoadstringCached(url, fileName)
+    if isfile and readfile and writefile then
+        if isfile(fileName) then
+            local content = readfile(fileName)
+            if content and string.len(content) > 100 then
+                return loadstring(content)()
+            end
+        end
+    end
+    
+    local success, result
+    repeat
+        success, result = pcall(function()
+            return game:HttpGet(url)
+        end)
+        if not success or not result or string.len(result) < 100 then
+            task.wait(math.random(2, 5))
+            success = false
+        end
+    until success
+    
+    if isfile and writefile then
+        pcall(function() writefile(fileName, result) end)
+    end
+    
+    return loadstring(result)()
+end
+
+local Fluent = safeLoadstringCached("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua", "AProject_Fluent.lua")
+local SaveManager = safeLoadstringCached("https://raw.githubusercontent.com/Afz-oos/PJAX/refs/heads/main/Config.lua", "AProject_SaveManager.lua")
+local InterfaceManager = safeLoadstringCached("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua", "AProject_Interface.lua")
+
+local Window = Fluent:CreateWindow({
+    Title = "A Project Chick Chick",
+    SubTitle = "by Ao Pro Free",
+    TabWidth = 160,
+    Size = UDim2.fromOffset(580, 460),
+    Acrylic = false,
+    Theme = "Amethyst",
+    MinimizeKey = Enum.KeyCode.LeftControl
+})
+
+-- Override theme to light blue
+Fluent:SetTheme("Amethyst")
+local customAccent = Color3.fromRGB(100, 180, 255)
+
+local Tabs = {
+    Main = Window:AddTab({ Title = "Main", Icon = "home" }),
+    Farm = Window:AddTab({ Title = "Farm", Icon = "gamepad-2" }),
+    Shop = Window:AddTab({ Title = "Shop", Icon = "shopping-cart" }),
+    Trade = Window:AddTab({ Title = "Trade", Icon = "arrow-left-right" }),
+    Gift = Window:AddTab({ Title = "Gift", Icon = "gift" }),
+    Pets = Window:AddTab({ Title = "Pets", Icon = "smile" }),
+    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
+}
+
+local Options = Fluent.Options
+
+local SeedsList = {
+    "All", "Acorn", "Apple", "Baby Cactus", "Bamboo", "Banana", "Beanstalk", "Blueberry", 
+    "Buttercup", "Cactus", "Carrot", "Cherry", "Coconut", "Corn", "Dragon Fruit", 
+    "Dragon's Breath", "Ghost Pepper", "Glow Mushroom", "Gold", "Grape", "Green Bean", 
+    "Horned Melon", "Lotus", "Mango", "Moon Bloom", "Mushroom", "Pineapple", "Pinetree", 
+    "Poison Apple", "Poison Ivy", "Pomegranate", "Pumpkin", "Rainbow", "Romanesco", 
+    "Strawberry", "Sunflower", "Thorn Rose", "Tomato", "Tulip", "Venus Fly Trap"
+}
+
+local GearsList = {
+    "All", "Common Watering Can", "Common Sprinkler", "Sign", "Lantern", "Wheelbarrow", 
+    "Uncommon Sprinkler", "Rare Sprinkler", "Legendary Sprinkler", "Super Sprinkler", 
+    "Trowel", "Speed Mushroom", "Jump Mushroom", "Gnome", "Shrink Mushroom", 
+    "Supersize Mushroom", "Invisibility Mushroom", "Teleporter", "Super Watering Can", 
+    "Basic Pot", "Flashbang"
+}
+
+local PetsPrices = {
+    ["Frog"] = 10000,
+    ["Bunny"] = 20000,
+    ["Owl"] = 25000,
+    ["Deer"] = 50000,
+    ["Robin"] = 75000,
+    ["Bee"] = 1000000,
+    ["Monkey"] = 1000000,
+    ["Black Dragon"] = 1000000,
+    ["Golden Dragonfly"] = 3000000,
+    ["Unicorn"] = 4000000,
+    ["Raccoon"] = 5000000
+}
+
+-- ============================================================
+-- Auto Bypass (Loading Screen & Tutorial)
+-- ============================================================
+task.spawn(function()
+    -- 1. ÃƒÂ Ã‚Â¸Ã…Â¡ÃƒÂ Ã‚Â¸Ã‚Â±ÃƒÂ Ã‚Â¸Ã¢â‚¬Â¡ÃƒÂ Ã‚Â¸Ã¢â‚¬Å¾ÃƒÂ Ã‚Â¸Ã‚Â±ÃƒÂ Ã‚Â¸Ã…Â¡ÃƒÂ Ã‚Â¸Ã¢â‚¬Å¡ÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã‚Â¡ÃƒÂ Ã‚Â¸Ã‚Â«ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã‚ÂªÃƒÂ Ã‚Â¸Ã‚Â­ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã‚Â¥ÃƒÂ Ã‚Â¹Ã‹â€ ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ (Tutorial) ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã…Â¾ÃƒÂ Ã‚Â¸Ã‚Â·ÃƒÂ Ã‚Â¹Ã‹â€ ÃƒÂ Ã‚Â¸Ã‚Â­ÃƒÂ Ã‚Â¹Ã†â€™ÃƒÂ Ã‚Â¸Ã‚Â«ÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã‚ÂªÃƒÂ Ã‚Â¹Ã‹â€ ÃƒÂ Ã‚Â¸Ã¢â‚¬Â¡ÃƒÂ Ã‚Â¸Ã¢â‚¬Å¡ÃƒÂ Ã‚Â¸Ã‚Â­ÃƒÂ Ã‚Â¸Ã¢â‚¬Â¡ÃƒÂ Ã‚Â¹Ã†â€™ÃƒÂ Ã‚Â¸Ã‚Â«ÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã¢â‚¬Å¾ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ÃƒÂ Ã‚Â¸Ã‚Â­ÃƒÂ Ã‚Â¸Ã‚Â·ÃƒÂ Ã‚Â¹Ã‹â€ ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ÃƒÂ Ã‚Â¹Ã¢â‚¬Å¾ÃƒÂ Ã‚Â¸Ã¢â‚¬ÂÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã‚Â¥ÃƒÂ Ã‚Â¸Ã‚Â¢
+    pcall(function()
+        local Networking = require(game:GetService("ReplicatedStorage").SharedModules.Networking)
+        Networking.Tutorial.Complete:Fire()
+    end)
+    
+    -- 2. ÃƒÂ Ã‚Â¸Ã¢â‚¬Å¡ÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã‚Â¡ÃƒÂ Ã‚Â¸Ã‚Â«ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¹Ã¢â‚¬Å¡ÃƒÂ Ã‚Â¸Ã‚Â«ÃƒÂ Ã‚Â¸Ã‚Â¥ÃƒÂ Ã‚Â¸Ã¢â‚¬ÂÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã‚ÂÃƒÂ Ã‚Â¸Ã‚Â¡ (ÃƒÂ Ã‚Â¸Ã‚ÂªÃƒÂ Ã‚Â¸Ã‚Â³ÃƒÂ Ã‚Â¸Ã‚Â«ÃƒÂ Ã‚Â¸Ã‚Â£ÃƒÂ Ã‚Â¸Ã‚Â±ÃƒÂ Ã‚Â¸Ã…Â¡ÃƒÂ Ã‚Â¸Ã¢â‚¬Å¾ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã¢â‚¬ÂºÃƒÂ Ã‚Â¸Ã‚Â´ÃƒÂ Ã‚Â¸Ã¢â‚¬ÂÃƒÂ Ã‚Â¸Ã‚Â«ÃƒÂ Ã‚Â¸Ã‚Â¥ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã‚Â¢ÃƒÂ Ã‚Â¸Ã‹â€ ÃƒÂ Ã‚Â¸Ã‚Â­ÃƒÂ Ã‚Â¹Ã‚ÂÃƒÂ Ã‚Â¸Ã‚Â¥ÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã‚Â§ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã‚Â¡ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã‚ÂªÃƒÂ Ã‚Â¹Ã…â€™ÃƒÂ Ã‚Â¹Ã¢â‚¬Å¾ÃƒÂ Ã‚Â¸Ã‚Â¡ÃƒÂ Ã‚Â¹Ã‹â€ ÃƒÂ Ã‚Â¹Ã¢â‚¬Å¾ÃƒÂ Ã‚Â¸Ã¢â‚¬ÂÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã‚Â­ÃƒÂ Ã‚Â¸Ã‚Â¢ÃƒÂ Ã‚Â¸Ã‚Â¹ÃƒÂ Ã‚Â¹Ã‹â€ ÃƒÂ Ã‚Â¹Ã†â€™ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ÃƒÂ Ã‚Â¸Ã‹â€ ÃƒÂ Ã‚Â¸Ã‚Â­)
+    task.spawn(function()
+        local VirtualInputManager = game:GetService("VirtualInputManager")
+        task.wait(25)
+        pcall(function()
+            local screenCenter = Vector2.new(workspace.CurrentCamera.ViewportSize.X / 2, workspace.CurrentCamera.ViewportSize.Y / 2)
+            VirtualInputManager:SendMouseButtonEvent(screenCenter.X, screenCenter.Y, 0, true, game, 0)
+            task.wait(0.1)
+            VirtualInputManager:SendMouseButtonEvent(screenCenter.X, screenCenter.Y, 0, false, game, 0)
+        end)
+    end)
+end)
+
+-- ============================================================
+-- Main Tab
+-- ============================================================
+
+Tabs.Main:AddParagraph({
+    Title = "Grow A Garden 2 | By ChickChick",
+    Content = "Welcome to ChickChick\n[Discord] ChickChick\nPower By Ao Pro Free"
+})
+
+-- ============================================================
+-- Farm Tab
+-- ============================================================
+
+local AutoHarvestTask
+
+local Toggle = Tabs.Farm:AddToggle("AutoHarvestToggle", {Title = "Auto Harvest", Default = false })
+Toggle:OnChanged(function()
+    if Options.AutoHarvestToggle.Value then
+        AutoHarvestTask = task.spawn(function()
+            local lp = game.Players.LocalPlayer
+            while Options.AutoHarvestToggle.Value and getgenv().Gag2RunningID == currentID do
+                pcall(function()
+                    local myPlotId = lp:GetAttribute("PlotId")
+                    local gardens = game:GetService("Workspace"):FindFirstChild("Gardens")
+                    if gardens then
+                        if myPlotId then
+                            local plot = gardens:FindFirstChild("Plot" .. tostring(myPlotId))
+                            if plot then
+                                local plants = plot:FindFirstChild("Plants")
+                                if plants then
+                                    for _, plant in ipairs(plants:GetChildren()) do
+                                        local prompt = plant:FindFirstChildWhichIsA("ProximityPrompt", true)
+                                        if prompt and prompt.ActionText == "Harvest" then
+                                            fireproximityprompt(prompt)
+                                        end
+                                    end
+                                end
+                            end
+                        else
+                            -- Fallback ÃƒÂ Ã‚Â¸ ÃƒÂ Ã‚Â¸Ã‚Â£ÃƒÂ Ã‚Â¸Ã¢â‚¬Å“ÃƒÂ Ã‚Â¸Ã‚ÂµÃƒÂ Ã‚Â¹Ã¢â‚¬Å¾ÃƒÂ Ã‚Â¸Ã‚Â¡ÃƒÂ Ã‚Â¹Ã‹â€ ÃƒÂ Ã‚Â¸Ã‚Â¡ÃƒÂ Ã‚Â¸Ã‚Âµ PlotId
+                            for _, plot in ipairs(gardens:GetChildren()) do
+                                local plants = plot:FindFirstChild("Plants")
+                                if plants then
+                                    for _, plant in ipairs(plants:GetChildren()) do
+                                        local prompt = plant:FindFirstChildWhichIsA("ProximityPrompt", true)
+                                        if prompt and prompt.ActionText == "Harvest" then
+                                            fireproximityprompt(prompt)
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end)
+                task.wait(0.5) -- ÃƒÂ Ã‚Â¹ ÃƒÂ Ã‚Â¸ ÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¹ ÃƒÂ Ã‚Â¸Ã‚Â¥ÃƒÂ Ã‚Â¸Ã¢â‚¬Å¾ÃƒÂ Ã‚Â¹Ã¢â‚¬Å¡ÃƒÂ Ã‚Â¸Ã¢â‚¬ÂÃƒÂ Ã‚Â¸Ã‚Â¢ÃƒÂ Ã‚Â¸Ã‚ÂªÃƒÂ Ã‚Â¹ ÃƒÂ Ã‚Â¸ ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã…Â¾ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã‚Â°ÃƒÂ Ã‚Â¹Ã¢â‚¬Å¡ÃƒÂ Ã‚Â¸Ã…Â¸ÃƒÂ Ã‚Â¸Ã‚Â¥ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã¢â‚¬ÂÃƒÂ Ã‚Â¸Ã‚Â­ÃƒÂ Ã‚Â¸Ã‚Â£ÃƒÂ Ã‚Â¹Ã…â€™ÃƒÂ Ã‚Â¸Ã¢â‚¬Â¢ÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ÃƒÂ Ã‚Â¹Ã¢â‚¬Å¾ÃƒÂ Ã‚Â¸Ã‚Â¡ÃƒÂ Ã‚Â¹Ã¢â‚¬Â°
+            end
+        end)
+    else
+        if AutoHarvestTask then
+            task.cancel(AutoHarvestTask)
+            AutoHarvestTask = nil
+        end
+    end
+end)
+
+
+local AutoPlantTask
+local Networking = require(game:GetService("ReplicatedStorage").SharedModules.Networking)
+
+local PlantSeedDropdown = Tabs.Farm:AddDropdown("SelectPlantSeed", {
+    Title = "Select Seeds to Plant",
+    Values = SeedsList,
+    Multi = true,
+    Default = {"Apple"},
+})
+
+local PlantToggle = Tabs.Farm:AddToggle("AutoPlantToggle", {Title = "Auto Plant (Use Seeds from Inventory)", Default = false })
+PlantToggle:OnChanged(function()
+    if Options.AutoPlantToggle.Value then
+        AutoPlantTask = task.spawn(function()
+            while Options.AutoPlantToggle.Value and getgenv().Gag2RunningID == currentID do
+                pcall(function()
+                    local lp = game.Players.LocalPlayer
+                    local plotId = lp:GetAttribute("PlotId")
+                    if not plotId then return end
+                    
+                    local plot = workspace.Gardens:FindFirstChild("Plot" .. tostring(plotId))
+                    if not plot then return end
+                    
+                    local plantAreas = {}
+                    for _, v in ipairs(game:GetService("CollectionService"):GetTagged("PlantArea")) do
+                        if v:IsDescendantOf(plot) then
+                            table.insert(plantAreas, v)
+                        end
+                    end
+                    if #plantAreas == 0 then return end
+                    
+                    local plantsFolder = plot:FindFirstChild("Plants")
+                    if not plantsFolder then return end
+
+                    -- Validate selected seeds
+                    local selectedSeeds = Options.SelectPlantSeed.Value
+                    local validSeeds = {}
+                    if type(selectedSeeds) == "table" then
+                        for k, v in pairs(selectedSeeds) do
+                            if type(k) == "number" and type(v) == "string" then
+                                validSeeds[v] = true
+                            elseif type(k) == "string" and v == true then
+                                validSeeds[k] = true
+                            end
+                        end
+                    end
+                    if not next(validSeeds) then return end
+
+                    local hasAll = validSeeds["All"] == true
+
+                    -- Find a seed tool
+                    local tool = nil
+                    for _, v in ipairs(lp.Backpack:GetChildren()) do
+                        if v:IsA("Tool") and v:GetAttribute("SeedTool") then
+                            local seedName = string.gsub(v.Name, " Seed", "")
+                            if validSeeds[seedName] or hasAll then
+                                tool = v
+                                break
+                            end
+                        end
+                    end
+                    if not tool and lp.Character then
+                        for _, v in ipairs(lp.Character:GetChildren()) do
+                            if v:IsA("Tool") and v:GetAttribute("SeedTool") then
+                                local seedName = string.gsub(v.Name, " Seed", "")
+                                if validSeeds[seedName] or hasAll then
+                                    tool = v
+                                    break
+                                end
+                            end
+                        end
+                    end
+
+                    if tool then
+                        local seedId = tool:GetAttribute("SeedTool")
+                        local area = plantAreas[math.random(1, #plantAreas)]
+                        if area then
+                            local size = area.Size
+                            local cf = area.CFrame
+                            for i = 1, 10 do
+                                local rx = (math.random() - 0.5) * size.X
+                                local rz = (math.random() - 0.5) * size.Z
+                                local tryPos = cf * Vector3.new(rx, size.Y/2, rz)
+                                
+                                local tooClose = false
+                                for _, plant in ipairs(plantsFolder:GetChildren()) do
+                                    if plant:IsA("Model") and plant.PrimaryPart then
+                                        local pPos = plant.PrimaryPart.Position
+                                        if (Vector2.new(tryPos.X, tryPos.Z) - Vector2.new(pPos.X, pPos.Z)).Magnitude < 1.5 then
+                                            tooClose = true
+                                            break
+                                        end
+                                    end
+                                end
+                                
+                                if not tooClose then
+                                    Networking.Plant.PlantSeed:Fire(tryPos, seedId, tool)
+                                    task.wait(0.2)
+                                    break
+                                end
+                            end
+                        end
+                    end
+                end)
+                task.wait(0.5)
+            end
+        end)
+    else
+        if AutoPlantTask then
+            task.cancel(AutoPlantTask)
+            AutoPlantTask = nil
+        end
+    end
+end)
+
+local AutoPickEventTask
+local _seedPackConnections = {}
+
+local PickToggle = Tabs.Farm:AddToggle("AutoPickEventToggle", {Title = "Auto Pick Event", Default = false })
+PickToggle:OnChanged(function()
+    if Options.AutoPickEventToggle.Value then
+        AutoPickEventTask = task.spawn(function()
+            local Networking = require(game:GetService("ReplicatedStorage").SharedModules.Networking)
+            local mapFolder = workspace:FindFirstChild("Map")
+            if not mapFolder then return end
+            
+            local pickedPacks = {}
+            
+            local function grabPack(item)
+                if pickedPacks[item] then return end
+                pickedPacks[item] = true
+                
+                -- Fire ClickPack FIRST (before teleport = fastest possible)
+                pcall(function() Networking.SeedPack.ClickPack:Fire(item) end)
+                
+                -- Teleport to it
+                local lp = game.Players.LocalPlayer
+                local char = lp and lp.Character
+                local hrp = char and char:FindFirstChild("HumanoidRootPart")
+                if hrp then
+                    local tp = item:IsA("Model") and (item.PrimaryPart or item:FindFirstChildWhichIsA("BasePart", true)) or item
+                    if tp and tp:IsA("BasePart") then
+                        hrp.CFrame = tp.CFrame
+                    end
+                end
+                
+                -- Fire again after teleport (double tap)
+                pcall(function() Networking.SeedPack.ClickPack:Fire(item) end)
+                
+                -- Fallback methods
+                local prompt = item:FindFirstChildWhichIsA("ProximityPrompt", true)
+                if prompt then fireproximityprompt(prompt) end
+                if hrp and firetouchinterest then
+                    local tp2 = item:IsA("Model") and (item.PrimaryPart or item:FindFirstChildWhichIsA("BasePart", true)) or item
+                    if tp2 and tp2:IsA("BasePart") then
+                        firetouchinterest(hrp, tp2, 0)
+                        firetouchinterest(hrp, tp2, 1)
+                    end
+                end
+            end
+            
+            -- ChildAdded: detect new seed packs INSTANTLY
+            local foldersToWatch = {
+                mapFolder:FindFirstChild("SeedPackSpawnClient"),
+                mapFolder:FindFirstChild("SeedPackSpawnServerLocations"),
+            }
+            
+            for _, folder in ipairs(foldersToWatch) do
+                if folder then
+                    for _, item in ipairs(folder:GetChildren()) do
+                        task.spawn(grabPack, item)
+                    end
+                    local conn = folder.ChildAdded:Connect(function(item)
+                        if Options.AutoPickEventToggle.Value and getgenv().Gag2RunningID == currentID then
+                            task.spawn(grabPack, item)
+                        end
+                    end)
+                    table.insert(_seedPackConnections, conn)
+                end
+            end
+            
+            -- Backup loop: recheck + DroppedItems + Workspace prompts
+            local tickCounter = 0
+            while Options.AutoPickEventToggle.Value and getgenv().Gag2RunningID == currentID do
+                pcall(function()
+                    for _, folder in ipairs(foldersToWatch) do
+                        if folder then
+                            for _, item in ipairs(folder:GetChildren()) do
+                                if not pickedPacks[item] then
+                                    task.spawn(grabPack, item)
+                                end
+                            end
+                        end
+                    end
+                    
+                    tickCounter = tickCounter + 1
+                    if tickCounter >= 30 then
+                        tickCounter = 0
+                        local droppedItemsFolder = workspace:FindFirstChild("DroppedItems")
+                        if droppedItemsFolder then
+                            local hrp = game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+                            for _, item in ipairs(droppedItemsFolder:GetChildren()) do
+                                if hrp then
+                                    local tp = item:IsA("Model") and (item.PrimaryPart or item:FindFirstChildWhichIsA("BasePart", true)) or item
+                                    if tp and tp:IsA("BasePart") then hrp.CFrame = tp.CFrame end
+                                end
+                                local prompt = item:FindFirstChildWhichIsA("ProximityPrompt", true)
+                                if prompt then fireproximityprompt(prompt) end
+                            end
+                        end
+                        for _, prompt in ipairs(workspace:GetDescendants()) do
+                            if prompt:IsA("ProximityPrompt") and prompt.Enabled then
+                                local text = string.lower(prompt.ActionText)
+                                if text == "collect" or text == "pick up" or text == "pickup" or text == "open" or text == "take" or text == "grab" or text == "dig" or text == "dig up" then
+                                    local hrp = game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+                                    if hrp and prompt.Parent and prompt.Parent:IsA("BasePart") then
+                                        hrp.CFrame = prompt.Parent.CFrame
+                                    end
+                                    fireproximityprompt(prompt)
+                                end
+                            end
+                        end
+                    end
+                end)
+                task.wait(0.3)
+            end
+        end)
+    else
+        if AutoPickEventTask then
+            task.cancel(AutoPickEventTask)
+            AutoPickEventTask = nil
+        end
+        for _, conn in ipairs(_seedPackConnections) do
+            pcall(function() conn:Disconnect() end)
+        end
+        _seedPackConnections = {}
+    end
+end)
+
+local AutoSellFullTask
+
+local SellFullToggle = Tabs.Farm:AddToggle("AutoSellFullToggle", {Title = "Auto Sell Backpack Full", Default = false })
+SellFullToggle:OnChanged(function()
+    if Options.AutoSellFullToggle.Value then
+        AutoSellFullTask = task.spawn(function()
+            local Networking = require(game:GetService("ReplicatedStorage").SharedModules.Networking)
+            local PlayerGui = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+            while Options.AutoSellFullToggle.Value and getgenv().Gag2RunningID == currentID do
+                pcall(function()
+                    local backpackGui = PlayerGui:FindFirstChild("BackpackGui")
+                    if backpackGui then
+                        local invLabel = backpackGui:FindFirstChild("FruitInventory", true)
+                        if invLabel and invLabel:IsA("TextLabel") then
+                            local current, max = string.match(invLabel.Text, "(%d+)/(%d+)")
+                            if current and max then
+                                if tonumber(current) >= tonumber(max) then
+                                    Networking.NPCS.SellAll:Fire()
+                                end
+                            end
+                        end
+                    end
+                end)
+                task.wait(1)
+            end
+        end)
+    else
+        if AutoSellFullTask then
+            task.cancel(AutoSellFullTask)
+            AutoSellFullTask = nil
+        end
+    end
+end)
+
+local AntiAfkConnection
+local AntiAfkToggle = Tabs.Farm:AddToggle("AntiAfkToggle", {Title = "Advanced Anti AFK", Default = false })
+AntiAfkToggle:OnChanged(function()
+    if Options.AntiAfkToggle.Value then
+        if not AntiAfkConnection then
+            local VirtualUser = game:GetService("VirtualUser")
+            AntiAfkConnection = game.Players.LocalPlayer.Idled:Connect(function()
+                VirtualUser:CaptureController()
+                VirtualUser:ClickButton2(Vector2.new())
+            end)
+        end
+    else
+        if AntiAfkConnection then
+            AntiAfkConnection:Disconnect()
+            AntiAfkConnection = nil
+        end
+    end
+end)
+
+local AntiStealTask
+local AntiStealToggle = Tabs.Farm:AddToggle("AntiStealToggle", {Title = "Anti Steal (Hit nearby players)", Default = false })
+AntiStealToggle:OnChanged(function()
+    if Options.AntiStealToggle.Value then
+        AntiStealTask = task.spawn(function()
+            while Options.AntiStealToggle.Value and getgenv().Gag2RunningID == currentID do
+                pcall(function()
+                    local lp = game.Players.LocalPlayer
+                    local char = lp.Character
+                    if not char or not char:FindFirstChild("HumanoidRootPart") then return end
+                    local hrp = char.HumanoidRootPart
+                    
+                    local myPlot
+                    local gardens = game:GetService("Workspace"):FindFirstChild("Gardens")
+                    if gardens then
+                        for _, plot in ipairs(gardens:GetChildren()) do
+                            local ownerVal = plot:FindFirstChild("Owner")
+                            if ownerVal and tostring(ownerVal.Value) == lp.Name then
+                                myPlot = plot
+                                break
+                            end
+                        end
+                    end
+                    
+                    if myPlot then
+                        local centerPart = myPlot:FindFirstChild("PlotSizeReference") or myPlot:FindFirstChild("SpawnPoint") or myPlot.PrimaryPart
+                        if centerPart then
+                            local plotCenter = centerPart.Position
+                            local plotRadius = 60
+                            
+                            for _, player in ipairs(game.Players:GetPlayers()) do
+                                if player ~= lp and player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+                                    local targetHrp = player.Character.HumanoidRootPart
+                                    local distance = (targetHrp.Position - plotCenter).Magnitude
+                                    
+                                    if distance <= plotRadius then
+                                        local shovel = char:FindFirstChild("Shovel") or (lp:FindFirstChild("Backpack") and lp.Backpack:FindFirstChild("Shovel"))
+                                        if shovel then
+                                            local hum = char:FindFirstChild("Humanoid")
+                                            if hum and shovel.Parent ~= char then
+                                                hum:EquipTool(shovel)
+                                            end
+                                            
+                                            local oldCFrame = hrp.CFrame
+                                            hrp.CFrame = targetHrp.CFrame * CFrame.Angles(0, math.rad(math.random(0, 360)), 0)
+                                            shovel:Activate()
+                                                task.wait()
+                                            hrp.CFrame = oldCFrame
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end)
+                task.wait(0.2)
+            end
+        end)
+    else
+        if AntiStealTask then
+            task.cancel(AntiStealTask)
+            AntiStealTask = nil
+        end
+    end
+end)
+
+
+-- ============================================================
+-- Shop Tab
+-- ============================================================
+
+local Dropdown = Tabs.Shop:AddDropdown("SelectSeed", {
+    Title = "Select Seeds",
+    Values = SeedsList,
+    Multi = true,
+    Default = {"Apple"},
+})
+
+local AutoBuyTask
+
+local BuyToggle = Tabs.Shop:AddToggle("AutoBuyToggle", {Title = "Auto Buy Selected Seeds", Default = false })
+BuyToggle:OnChanged(function()
+    if Options.AutoBuyToggle.Value then
+        AutoBuyTask = task.spawn(function()
+            local Networking = require(game:GetService("ReplicatedStorage").SharedModules.Networking)
+            while Options.AutoBuyToggle.Value and getgenv().Gag2RunningID == currentID do
+                pcall(function()
+                    local currentSelection = Options.SelectSeed.Value
+                    if type(currentSelection) == "table" then
+                        local hasAll = false
+                        local selected = {}
+                        for k, v in pairs(currentSelection) do
+                            local seedToBuy
+                            if type(k) == "number" and type(v) == "string" then
+                                seedToBuy = v
+                            elseif type(k) == "string" and v == true then
+                                seedToBuy = k
+                            end
+                            if seedToBuy == "All" then hasAll = true end
+                            if seedToBuy then selected[seedToBuy] = true end
+                        end
+                        
+                        local function buy(seed)
+                            if seed ~= "All" then
+                                Networking.SeedShop.PurchaseSeed:Fire(seed)
+                                task.wait(0.1)
+                            end
+                        end
+                        
+                        if hasAll then
+                            for _, seed in ipairs(SeedsList) do buy(seed) end
+                        else
+                            for seed, _ in pairs(selected) do buy(seed) end
+                        end
+                    elseif type(currentSelection) == "string" then
+                        if currentSelection == "All" then
+                            for _, seed in ipairs(SeedsList) do
+                                if seed ~= "All" then
+                                    Networking.SeedShop.PurchaseSeed:Fire(seed)
+                                    task.wait(0.1)
+                                end
+                            end
+                        else
+                            Networking.SeedShop.PurchaseSeed:Fire(currentSelection)
+                        end
+                    end
+                end)
+                task.wait(0.5)
+            end
+        end)
+    else
+        if AutoBuyTask then
+            task.cancel(AutoBuyTask)
+            AutoBuyTask = nil
+        end
+    end
+end)
+
+local GearsList = {
+    "Common Watering Can", "Common Sprinkler", "Sign", "Lantern", "Wheelbarrow", 
+    "Uncommon Sprinkler", "Rare Sprinkler", "Legendary Sprinkler", "Super Sprinkler", 
+    "Trowel", "Speed Mushroom", "Jump Mushroom", "Gnome", "Shrink Mushroom", 
+    "Supersize Mushroom", "Invisibility Mushroom", "Teleporter", "Super Watering Can", 
+    "Basic Pot", "Flashbang"
+}
+
+local GearDropdown = Tabs.Shop:AddDropdown("SelectGear", {
+    Title = "Select Gears",
+    Values = GearsList,
+    Multi = true,
+    Default = {"Common Watering Can"},
+})
+
+local AutoBuyGearTask
+
+local BuyGearToggle = Tabs.Shop:AddToggle("AutoBuyGearToggle", {Title = "Auto Buy Selected Gears", Default = false })
+BuyGearToggle:OnChanged(function()
+    if Options.AutoBuyGearToggle.Value then
+        AutoBuyGearTask = task.spawn(function()
+            local Networking = require(game:GetService("ReplicatedStorage").SharedModules.Networking)
+            while Options.AutoBuyGearToggle.Value and getgenv().Gag2RunningID == currentID do
+                pcall(function()
+                    local currentSelection = Options.SelectGear.Value
+                    if type(currentSelection) == "table" then
+                        local hasAll = false
+                        local selected = {}
+                        for k, v in pairs(currentSelection) do
+                            local gearToBuy
+                            if type(k) == "number" and type(v) == "string" then
+                                gearToBuy = v
+                            elseif type(k) == "string" and v == true then
+                                gearToBuy = k
+                            end
+                            if gearToBuy == "All" then hasAll = true end
+                            if gearToBuy then selected[gearToBuy] = true end
+                        end
+                        
+                        local function buy(gear)
+                            if gear ~= "All" then
+                                Networking.GearShop.PurchaseGear:Fire(gear)
+                                task.wait(0.1)
+                            end
+                        end
+                        
+                        if hasAll then
+                            for _, gear in ipairs(GearsList) do buy(gear) end
+                        else
+                            for gear, _ in pairs(selected) do buy(gear) end
+                        end
+                    elseif type(currentSelection) == "string" then
+                        if currentSelection == "All" then
+                            for _, gear in ipairs(GearsList) do
+                                if gear ~= "All" then
+                                    Networking.GearShop.PurchaseGear:Fire(gear)
+                                    task.wait(0.1)
+                                end
+                            end
+                        else
+                            Networking.GearShop.PurchaseGear:Fire(currentSelection)
+                        end
+                    end
+                end)
+                task.wait(0.5)
+            end
+        end)
+    else
+        if AutoBuyGearTask then
+            task.cancel(AutoBuyGearTask)
+            AutoBuyGearTask = nil
+        end
+    end
+end)
+
+local SellDropdown = Tabs.Shop:AddDropdown("SelectSell", {
+    Title = "Select Fruits to Sell",
+    Values = SeedsList,
+    Multi = true,
+    Default = {"All"},
+})
+
+local AutoSellTask
+
+local SellToggle = Tabs.Shop:AddToggle("AutoSellToggle", {Title = "Auto Sell Selected Fruits", Default = false })
+SellToggle:OnChanged(function()
+    if Options.AutoSellToggle.Value then
+        AutoSellTask = task.spawn(function()
+            local Networking = require(game:GetService("ReplicatedStorage").SharedModules.Networking)
+            while Options.AutoSellToggle.Value and getgenv().Gag2RunningID == currentID do
+                pcall(function()
+                    local currentSelection = Options.SelectSell.Value
+                    local selectedFruits = {}
+                    
+                    if type(currentSelection) == "table" then
+                        for k, v in pairs(currentSelection) do
+                            if type(k) == "number" and type(v) == "string" then
+                                selectedFruits[v] = true
+                            elseif type(k) == "string" and v == true then
+                                selectedFruits[k] = true
+                            end
+                        end
+                    elseif type(currentSelection) == "string" then
+                        selectedFruits[currentSelection] = true
+                    end
+                    
+                    if selectedFruits["All"] then
+                        -- ÃƒÂ Ã‚Â¸Ã¢â‚¬â€œÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã‚Â¥ÃƒÂ Ã‚Â¸Ã‚Â·ÃƒÂ Ã‚Â¸Ã‚Â­ÃƒÂ Ã‚Â¸Ã‚Â All ÃƒÂ Ã‚Â¹Ã†â€™ÃƒÂ Ã‚Â¸Ã‚Â«ÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã‚ÂÃƒÂ Ã‚Â¸Ã¢â‚¬ÂÃƒÂ Ã‚Â¸Ã¢â‚¬Å¡ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã‚Â¢ÃƒÂ Ã‚Â¸Ã¢â‚¬â€ÃƒÂ Ã‚Â¸Ã‚Â±ÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã¢â‚¬Â¡ÃƒÂ Ã‚Â¸Ã‚Â«ÃƒÂ Ã‚Â¸Ã‚Â¡ÃƒÂ Ã‚Â¸Ã¢â‚¬ÂÃƒÂ Ã‚Â¸Ã…â€œÃƒÂ Ã‚Â¹Ã‹â€ ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ SellAll ÃƒÂ Ã‚Â¸Ã¢â‚¬â€ÃƒÂ Ã‚Â¸Ã‚Â±ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ÃƒÂ Ã‚Â¸Ã¢â‚¬â€ÃƒÂ Ã‚Â¸Ã‚Âµ
+                        Networking.NPCS.SellAll:Fire()
+                    else
+                        -- ÃƒÂ Ã‚Â¸Ã¢â‚¬â€œÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã‚Â¥ÃƒÂ Ã‚Â¸Ã‚Â·ÃƒÂ Ã‚Â¸Ã‚Â­ÃƒÂ Ã‚Â¸Ã‚ÂÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã…Â¾ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã‚Â°ÃƒÂ Ã‚Â¸Ã…Â¡ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã¢â‚¬Â¡ÃƒÂ Ã‚Â¸Ã‚Â­ÃƒÂ Ã‚Â¸Ã‚Â±ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ ÃƒÂ Ã‚Â¹Ã†â€™ÃƒÂ Ã‚Â¸Ã‚Â«ÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã¢â‚¬Å¾ÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ÃƒÂ Ã‚Â¸Ã‚Â«ÃƒÂ Ã‚Â¸Ã‚Â² Tool ÃƒÂ Ã‚Â¹Ã†â€™ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ÃƒÂ Ã‚Â¸Ã¢â‚¬Â¢ÃƒÂ Ã‚Â¸Ã‚Â±ÃƒÂ Ã‚Â¸Ã‚Â§ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã‚Â£ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã¢â‚¬â€ÃƒÂ Ã‚Â¸Ã‚ÂµÃƒÂ Ã‚Â¹Ã‹â€ ÃƒÂ Ã‚Â¸Ã‚Â¡ÃƒÂ Ã‚Â¸Ã‚Âµ FruitName ÃƒÂ Ã‚Â¸Ã¢â‚¬Â¢ÃƒÂ Ã‚Â¸Ã‚Â£ÃƒÂ Ã‚Â¸Ã¢â‚¬Â¡ÃƒÂ Ã‚Â¸Ã‚ÂÃƒÂ Ã‚Â¸Ã‚Â±ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢
+                        local player = game.Players.LocalPlayer
+                        local toolsToSell = {}
+                        
+                        local function checkFolder(folder)
+                            for _, tool in ipairs(folder:GetChildren()) do
+                                if tool:IsA("Tool") then
+                                    local fruitName = tool:GetAttribute("FruitName")
+                                    if fruitName and selectedFruits[fruitName] then
+                                        local id = tool:GetAttribute("Id")
+                                        if id then table.insert(toolsToSell, id) end
+                                    end
+                                end
+                            end
+                        end
+                        
+                        if player.Character then checkFolder(player.Character) end
+                        checkFolder(player.Backpack)
+                        
+                        for _, id in ipairs(toolsToSell) do
+                            Networking.NPCS.SellFruit:Fire(id)
+                            task.wait(0.1)
+                        end
+                    end
+                end)
+                task.wait(1) -- ÃƒÂ Ã‚Â¸Ã‚Â£ÃƒÂ Ã‚Â¸Ã‚Â±ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã…Â ÃƒÂ Ã‚Â¹Ã¢â‚¬Â¡ÃƒÂ Ã‚Â¸Ã¢â‚¬Å¾ÃƒÂ Ã‚Â¸Ã¢â‚¬â€ÃƒÂ Ã‚Â¸Ã‚Â¸ÃƒÂ Ã‚Â¸Ã‚ÂÃƒÂ Ã‚Â¹Ã¢â‚¬Â  1 ÃƒÂ Ã‚Â¸Ã‚Â§ÃƒÂ Ã‚Â¸Ã‚Â´ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã¢â‚¬â€ÃƒÂ Ã‚Â¸Ã‚Âµ
+            end
+        end)
+    else
+        if AutoSellTask then
+            task.cancel(AutoSellTask)
+            AutoSellTask = nil
+        end
+    end
+end)
+
+-- ============================================================
+-- Treads Tab
+-- ============================================================
+
+local AutoSendMailTask
+local TargetUserIdCache = {}
+
+local TargetPlayerInput = Tabs.Trade:AddInput("TargetPlayerMail", {
+    Title = "Target Player Name",
+    Default = "",
+    Placeholder = "Enter username here",
+    Numeric = false,
+    Finished = false,
+})
+
+local SendMailAmountInput = Tabs.Trade:AddInput("SendMailAmount", {
+    Title = "Amount to Send (0 = All)",
+    Default = "0",
+    Placeholder = "Enter amount",
+    Numeric = true,
+    Finished = false,
+})
+
+local SendSeedDropdown = Tabs.Trade:AddDropdown("SelectSeedToSend", {
+    Title = "Select Seeds to Send",
+    Values = SeedsList,
+    Multi = true,
+    Default = {},
+})
+
+local SendGearDropdown = Tabs.Trade:AddDropdown("SelectGearToSend", {
+    Title = "Select Gears to Send",
+    Values = GearsList,
+    Multi = true,
+    Default = {},
+})
+
+local SendMailToggle = Tabs.Trade:AddToggle("AutoSendMailToggle", {Title = "Auto SendMail", Default = false })
+SendMailToggle:OnChanged(function()
+    if Options.AutoSendMailToggle.Value then
+        AutoSendMailTask = task.spawn(function()
+            local Networking = require(game:GetService("ReplicatedStorage").SharedModules.Networking)
+            local PlayerStateClient = require(game:GetService("ReplicatedStorage").ClientModules.PlayerStateClient)
+            
+            local sentTracker = {}
+            local targetAmount = tonumber(Options.SendMailAmount.Value) or 0
+            
+            while Options.AutoSendMailToggle.Value and getgenv().Gag2RunningID == currentID do
+                pcall(function()
+                    local targetName = Options.TargetPlayerMail.Value
+                    if targetName and targetName ~= "" then
+                        local targetUserId = TargetUserIdCache[targetName]
+                        if not targetUserId then
+                            local s, r = pcall(function()
+                                return game.Players:GetUserIdFromNameAsync(targetName)
+                            end)
+                            if s and r then
+                                targetUserId = r
+                                TargetUserIdCache[targetName] = r
+                            end
+                        end
+                        
+                        if targetUserId then
+                            local inventory = PlayerStateClient.GetLocalReplica().Data.Inventory
+                            local itemsToSend = {}
+                            
+                            local selSeeds = Options.SelectSeedToSend.Value
+                            local selGears = Options.SelectGearToSend.Value
+                            
+                            local isAllSeeds = false
+                            local seedsDict = {}
+                            if type(selSeeds) == "table" then
+                                for k, v in pairs(selSeeds) do
+                                    local name = type(k) == "number" and v or k
+                                    if name == "All" and (v == true or type(k) == "number") then isAllSeeds = true end
+                                    if v == true or type(k) == "number" then seedsDict[name] = true end
+                                end
+                            end
+                            
+                            local isAllGears = false
+                            local gearsDict = {}
+                            if type(selGears) == "table" then
+                                for k, v in pairs(selGears) do
+                                    local name = type(k) == "number" and v or k
+                                    if name == "All" and (v == true or type(k) == "number") then isAllGears = true end
+                                    if v == true or type(k) == "number" then gearsDict[name] = true end
+                                end
+                            end
+                            
+                            for category, categoryItems in pairs(inventory) do
+                                if category ~= "HarvestedFruits" and category ~= "Pets" then
+                                    for itemKey, count in pairs(categoryItems) do
+                                        if count > 0 then
+                                            local shouldSend = false
+                                            if category == "Seeds" then
+                                                if isAllSeeds or seedsDict[itemKey] then
+                                                    shouldSend = true
+                                                end
+                                            else
+                                                if isAllGears or gearsDict[itemKey] then
+                                                    shouldSend = true
+                                                end
+                                            end
+                                            
+                                            if shouldSend then
+                                                local finalCount = count
+                                                if targetAmount > 0 then
+                                                    local sent = sentTracker[itemKey] or 0
+                                                    if sent >= targetAmount then
+                                                        shouldSend = false
+                                                    else
+                                                        finalCount = math.min(count, targetAmount - sent)
+                                                        sentTracker[itemKey] = sent + finalCount
+                                                    end
+                                                end
+                                                
+                                                if shouldSend and finalCount > 0 then
+                                                    table.insert(itemsToSend, {
+                                                        Category = category,
+                                                        ItemKey = itemKey,
+                                                        Count = finalCount
+                                                    })
+                                                end
+                                            end
+                                        end
+                                    end
+                                end
+                            end
+                            
+                            if #itemsToSend > 0 then
+                                local batch = {}
+                                for _, item in ipairs(itemsToSend) do
+                                    table.insert(batch, item)
+                                    if #batch >= 5 then
+                                        Networking.Mailbox.SendBatch:Fire(targetUserId, batch, "Gift")
+                                        task.wait(1.5)
+                                        batch = {}
+                                    end
+                                end
+                                if #batch > 0 then
+                                    Networking.Mailbox.SendBatch:Fire(targetUserId, batch, "Gift")
+                                    task.wait(1.5)
+                                end
+                            end
+                        end
+                    end
+                end)
+                task.wait(2)
+            end
+        end)
+    else
+        if AutoSendMailTask then
+            task.cancel(AutoSendMailTask)
+            AutoSendMailTask = nil
+        end
+    end
+end)
+
+Tabs.Trade:AddButton({
+    Title = "Send Mail (Once)",
+    Description = "Send the selected items to the target player one time",
+    Callback = function()
+        task.spawn(function()
+            local Networking = require(game:GetService("ReplicatedStorage").SharedModules.Networking)
+            local PlayerStateClient = require(game:GetService("ReplicatedStorage").ClientModules.PlayerStateClient)
+            
+            local targetName = Options.TargetPlayerMail.Value
+            if not targetName or targetName == "" then 
+                Fluent:Notify({ Title = "Warning", Content = "Please enter Target Player Name!", Duration = 3 })
+                return 
+            end
+            
+            local targetUserId = TargetUserIdCache[targetName]
+            if not targetUserId then
+                local s, r = pcall(function() return game.Players:GetUserIdFromNameAsync(targetName) end)
+                if s and r then
+                    targetUserId = r
+                    TargetUserIdCache[targetName] = r
+                else
+                    Fluent:Notify({ Title = "Error", Content = "Player not found!", Duration = 3 })
+                    return
+                end
+            end
+            
+            local inventory = PlayerStateClient.GetLocalReplica().Data.Inventory
+            local itemsToSend = {}
+            local targetAmount = tonumber(Options.SendMailAmount.Value) or 0
+            
+            local selSeeds = Options.SelectSeedToSend.Value
+            local selGears = Options.SelectGearToSend.Value
+            
+            local isAllSeeds = false
+            local seedsDict = {}
+            if type(selSeeds) == "table" then
+                for k, v in pairs(selSeeds) do
+                    local name = type(k) == "number" and v or k
+                    if name == "All" and (v == true or type(k) == "number") then isAllSeeds = true end
+                    if v == true or type(k) == "number" then seedsDict[name] = true end
+                end
+            end
+            
+            local isAllGears = false
+            local gearsDict = {}
+            if type(selGears) == "table" then
+                for k, v in pairs(selGears) do
+                    local name = type(k) == "number" and v or k
+                    if name == "All" and (v == true or type(k) == "number") then isAllGears = true end
+                    if v == true or type(k) == "number" then gearsDict[name] = true end
+                end
+            end
+            
+            for category, categoryItems in pairs(inventory) do
+                if category ~= "HarvestedFruits" and category ~= "Pets" then
+                    for itemKey, count in pairs(categoryItems) do
+                        if count > 0 then
+                            local shouldSend = false
+                            if category == "Seeds" then
+                                if isAllSeeds or seedsDict[itemKey] then shouldSend = true end
+                            else
+                                if isAllGears or gearsDict[itemKey] then shouldSend = true end
+                            end
+                            
+                            if shouldSend then
+                                local finalCount = count
+                                if targetAmount > 0 then
+                                    finalCount = math.min(count, targetAmount)
+                                end
+                                
+                                if finalCount > 0 then
+                                    table.insert(itemsToSend, {
+                                        Category = category,
+                                        ItemKey = itemKey,
+                                        Count = finalCount
+                                    })
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+            
+            if #itemsToSend > 0 then
+                local batch = {}
+                for _, item in ipairs(itemsToSend) do
+                    table.insert(batch, item)
+                    if #batch >= 5 then
+                        Networking.Mailbox.SendBatch:Fire(targetUserId, batch, "Gift")
+                        task.wait(1.5)
+                        batch = {}
+                    end
+                end
+                if #batch > 0 then
+                    Networking.Mailbox.SendBatch:Fire(targetUserId, batch, "Gift")
+                end
+                Fluent:Notify({ Title = "Success", Content = "Sent Mail Successfully!", Duration = 3 })
+            else
+                Fluent:Notify({ Title = "Warning", Content = "No selected items found in inventory!", Duration = 3 })
+            end
+        end)
+    end
+})
+
+-- ============================================================
+-- Gift Tab
+-- ============================================================
+
+local GiftSeedsList = {"None"}
+for _, v in ipairs(SeedsList) do table.insert(GiftSeedsList, v) end
+
+local GiftGearsList = {"None"}
+for _, v in ipairs(GearsList) do table.insert(GiftGearsList, v) end
+
+local GiftTargetInput = Tabs.Gift:AddInput("GiftTargetName", {
+    Title = "Target Player Name",
+    Default = "",
+    Placeholder = "Enter username here",
+    Numeric = false,
+    Finished = false,
+})
+
+local GiftAmountInput = Tabs.Gift:AddInput("GiftAmount", {
+    Title = "Amount to Send (0 = All)",
+    Default = "0",
+    Placeholder = "Enter amount",
+    Numeric = true,
+    Finished = false,
+})
+
+local GiftSeedDropdown = Tabs.Gift:AddDropdown("GiftSelectSeed", {
+    Title = "Select Seed to Send",
+    Values = GiftSeedsList,
+    Multi = false,
+    Default = "None",
+})
+
+local GiftFruitDropdown = Tabs.Gift:AddDropdown("GiftSelectFruit", {
+    Title = "Select Fruit to Send",
+    Values = GiftSeedsList,
+    Multi = false,
+    Default = "None",
+})
+
+local GiftGearDropdown = Tabs.Gift:AddDropdown("GiftSelectGear", {
+    Title = "Select Gear to Send",
+    Values = GiftGearsList,
+    Multi = false,
+    Default = "None",
+})
+
+local AutoGiftTask
+
+local AutoGiftToggle = Tabs.Gift:AddToggle("AutoGiftToggle", {Title = "Auto Send Gift", Default = false })
+AutoGiftToggle:OnChanged(function()
+    if Options.AutoGiftToggle.Value then
+        AutoGiftTask = task.spawn(function()
+            local Networking = require(game:GetService("ReplicatedStorage").SharedModules.Networking)
+            local PlayerStateClient = require(game:GetService("ReplicatedStorage").ClientModules.PlayerStateClient)
+            
+            local sentTracker = {}
+            while Options.AutoGiftToggle.Value and getgenv().Gag2RunningID == currentID do
+                pcall(function()
+                    local targetName = Options.GiftTargetName.Value
+                    if not targetName or targetName == "" then return end
+                    
+                    local targetUserId = TargetUserIdCache[targetName]
+                    if not targetUserId then
+                        local s, r = pcall(function() return game.Players:GetUserIdFromNameAsync(targetName) end)
+                        if s and r then
+                            targetUserId = r
+                            TargetUserIdCache[targetName] = r
+                        end
+                    end
+                    
+                    if targetUserId then
+                        local inventory = PlayerStateClient.GetLocalReplica().Data.Inventory
+                        local itemsToSend = {}
+                        local targetAmount = tonumber(Options.GiftAmount.Value) or 0
+                        
+                        local selSeed = Options.GiftSelectSeed.Value
+                        local selFruit = Options.GiftSelectFruit.Value
+                        local selGear = Options.GiftSelectGear.Value
+                        
+                        for category, categoryItems in pairs(inventory) do
+                            for itemKey, count in pairs(categoryItems) do
+                                if count > 0 then
+                                    local shouldSend = false
+                                    
+                                    if category == "Seeds" and selSeed ~= "None" and (selSeed == "All" or selSeed == itemKey) then
+                                        shouldSend = true
+                                    elseif category == "HarvestedFruits" and selFruit ~= "None" and (selFruit == "All" or selFruit == itemKey) then
+                                        shouldSend = true
+                                    elseif category ~= "Seeds" and category ~= "HarvestedFruits" and category ~= "Pets" and selGear ~= "None" and (selGear == "All" or selGear == itemKey) then
+                                        shouldSend = true
+                                    end
+                                    
+                                    if shouldSend then
+                                        local finalCount = count
+                                        if targetAmount > 0 then
+                                            local sentKey = category .. "_" .. itemKey
+                                            local sent = sentTracker[sentKey] or 0
+                                            if sent >= targetAmount then
+                                                shouldSend = false
+                                            else
+                                                finalCount = math.min(count, targetAmount - sent)
+                                                sentTracker[sentKey] = sent + finalCount
+                                            end
+                                        end
+                                        
+                                        if shouldSend and finalCount > 0 then
+                                            table.insert(itemsToSend, {
+                                                Category = category,
+                                                ItemKey = itemKey,
+                                                Count = finalCount
+                                            })
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                        
+                        if #itemsToSend > 0 then
+                            local batch = {}
+                            for _, item in ipairs(itemsToSend) do
+                                table.insert(batch, item)
+                                if #batch >= 5 then
+                                    Networking.Mailbox.SendBatch:Fire(targetUserId, batch, "Gift")
+                                    task.wait(1.5)
+                                    batch = {}
+                                end
+                            end
+                            if #batch > 0 then
+                                Networking.Mailbox.SendBatch:Fire(targetUserId, batch, "Gift")
+                                task.wait(1.5)
+                            end
+                        end
+                    end
+                end)
+                task.wait(2)
+            end
+        end)
+    else
+        if AutoGiftTask then
+            task.cancel(AutoGiftTask)
+            AutoGiftTask = nil
+        end
+    end
+end)
+
+Tabs.Gift:AddButton({
+    Title = "Send Gift (Once)",
+    Description = "Send the selected items to the target player one time",
+    Callback = function()
+        task.spawn(function()
+            local Networking = require(game:GetService("ReplicatedStorage").SharedModules.Networking)
+            local PlayerStateClient = require(game:GetService("ReplicatedStorage").ClientModules.PlayerStateClient)
+            
+            local targetName = Options.GiftTargetName.Value
+            if not targetName or targetName == "" then 
+                Fluent:Notify({ Title = "Warning", Content = "Please enter Target Player Name!", Duration = 3 })
+                return 
+            end
+            
+            local targetUserId = TargetUserIdCache[targetName]
+            if not targetUserId then
+                local s, r = pcall(function() return game.Players:GetUserIdFromNameAsync(targetName) end)
+                if s and r then
+                    targetUserId = r
+                    TargetUserIdCache[targetName] = r
+                else
+                    Fluent:Notify({ Title = "Error", Content = "Player not found!", Duration = 3 })
+                    return
+                end
+            end
+            
+            local inventory = PlayerStateClient.GetLocalReplica().Data.Inventory
+            local itemsToSend = {}
+            local targetAmount = tonumber(Options.GiftAmount.Value) or 0
+            
+            local selSeed = Options.GiftSelectSeed.Value
+            local selFruit = Options.GiftSelectFruit.Value
+            local selGear = Options.GiftSelectGear.Value
+            
+            for category, categoryItems in pairs(inventory) do
+                for itemKey, count in pairs(categoryItems) do
+                    if count > 0 then
+                        local shouldSend = false
+                        if category == "Seeds" and selSeed ~= "None" and (selSeed == "All" or selSeed == itemKey) then
+                            shouldSend = true
+                        elseif category == "HarvestedFruits" and selFruit ~= "None" and (selFruit == "All" or selFruit == itemKey) then
+                            shouldSend = true
+                        elseif category ~= "Seeds" and category ~= "HarvestedFruits" and category ~= "Pets" and selGear ~= "None" and (selGear == "All" or selGear == itemKey) then
+                            shouldSend = true
+                        end
+                        
+                        if shouldSend then
+                            local finalCount = count
+                            if targetAmount > 0 then
+                                finalCount = math.min(count, targetAmount)
+                            end
+                            
+                            if finalCount > 0 then
+                                table.insert(itemsToSend, {
+                                    Category = category,
+                                    ItemKey = itemKey,
+                                    Count = finalCount
+                                })
+                            end
+                        end
+                    end
+                end
+            end
+            
+            if #itemsToSend > 0 then
+                local batch = {}
+                for _, item in ipairs(itemsToSend) do
+                    table.insert(batch, item)
+                    if #batch >= 5 then
+                        Networking.Mailbox.SendBatch:Fire(targetUserId, batch, "Gift")
+                        task.wait(1.5)
+                        batch = {}
+                    end
+                end
+                if #batch > 0 then
+                    Networking.Mailbox.SendBatch:Fire(targetUserId, batch, "Gift")
+                end
+                Fluent:Notify({ Title = "Success", Content = "Sent Gift Successfully!", Duration = 3 })
+            else
+                Fluent:Notify({ Title = "Warning", Content = "No selected items found in inventory!", Duration = 3 })
+            end
+        end)
+    end
+})
+
+local AutoClaimGiftTask
+local ClaimGiftToggle = Tabs.Gift:AddToggle("AutoClaimGiftToggle", {Title = "Auto Claim Incoming Gifts", Default = false })
+ClaimGiftToggle:OnChanged(function()
+    if Options.AutoClaimGiftToggle.Value then
+        AutoClaimGiftTask = task.spawn(function()
+            local Networking = require(game:GetService("ReplicatedStorage").SharedModules.Networking)
+            while Options.AutoClaimGiftToggle.Value and getgenv().Gag2RunningID == currentID do
+                pcall(function()
+                    local s, res = pcall(function() return Networking.Mailbox.OpenInbox:Fire() end)
+                    if s and type(res) == "table" then
+                        local giftsList = res.Gifts or res
+                        if type(giftsList) == "table" then
+                            for k, v in pairs(giftsList) do
+                                local giftId = type(v) == "table" and (v.Id or k) or k
+                                if giftId then
+                                    Networking.Mailbox.Claim:Fire(giftId)
+                                    task.wait(0.5)
+                                end
+                            end
+                        end
+                    end
+                end)
+                task.wait(5)
+            end
+        end)
+    else
+        if AutoClaimGiftTask then
+            task.cancel(AutoClaimGiftTask)
+            AutoClaimGiftTask = nil
+        end
+    end
+end)
+
+
+-- ============================================================
+-- Pets Tab
+-- ============================================================
+
+local PetsList = {"All", "Frog", "Bunny", "Owl", "Deer", "Robin", "Bee", "Monkey", "Black Dragon", "Golden Dragonfly", "Unicorn", "Raccoon"}
+
+local PetDropdown = Tabs.Pets:AddDropdown("SelectPetToBuy", {
+    Title = "Select Pets to Auto Buy",
+    Values = PetsList,
+    Multi = true,
+    Default = {"All"},
+})
+
+local AutoBuyPetTask
+local BuyPetToggle = Tabs.Pets:AddToggle("AutoBuyPetToggle", {Title = "Auto Buy Selected Pets", Default = false })
+
+BuyPetToggle:OnChanged(function()
+    if Options.AutoBuyPetToggle.Value then
+        AutoBuyPetTask = task.spawn(function()
+            local PlayerStateClient = require(game:GetService("ReplicatedStorage").ClientModules.PlayerStateClient)
+            while Options.AutoBuyPetToggle.Value and getgenv().Gag2RunningID == currentID do
+                pcall(function()
+                    local selectedPets = Options.SelectPetToBuy.Value
+                    local targetPets = {}
+                    local hasAll = false
+                    
+                    if type(selectedPets) == "table" then
+                        for k, v in pairs(selectedPets) do
+                            local name = type(k) == "number" and v or k
+                            if name == "All" and (v == true or type(k) == "number") then hasAll = true end
+                            if v == true or type(k) == "number" then targetPets[name] = true end
+                        end
+                    end
+                    
+                    if hasAll then
+                        for pet, _ in pairs(PetsPrices) do targetPets[pet] = true end
+                    end
+                    
+                    local lp = game.Players.LocalPlayer
+                    local char = lp.Character
+                    local hrp = char and char:FindFirstChild("HumanoidRootPart")
+                    
+                    if not hrp then return end
+
+                    for _, obj in ipairs(workspace:GetDescendants()) do
+                        local petNameMatch = nil
+                        for tPet, _ in pairs(targetPets) do
+                            if string.find(string.lower(obj.Name), string.lower(tPet)) then
+                                petNameMatch = tPet
+                                break
+                            end
+                        end
+                        
+                        if (obj:IsA("Model") or obj:IsA("BasePart")) and petNameMatch then
+                            local prompt = obj:FindFirstChildWhichIsA("ProximityPrompt", true)
+                            if prompt and prompt.Enabled then
+                                -- ÃƒÂ Ã‚Â¸Ã‚Â¥ÃƒÂ Ã‚Â¸Ã…Â¡ÃƒÂ Ã‚Â¸Ã‚ÂÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã‚Â£ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã…Â ÃƒÂ Ã‚Â¹Ã¢â‚¬Â¡ÃƒÂ Ã‚Â¸Ã¢â‚¬Å¾ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã¢â‚¬Â¡ÃƒÂ Ã‚Â¸Ã‚Â´ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ (myMoney >= price) ÃƒÂ Ã‚Â¸Ã‚Â­ÃƒÂ Ã‚Â¸Ã‚Â­ÃƒÂ Ã‚Â¸Ã‚Â ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã…Â¾ÃƒÂ Ã‚Â¸Ã‚Â£ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã‚Â°ÃƒÂ Ã‚Â¸Ã¢â‚¬Â¢ÃƒÂ Ã‚Â¸Ã‚Â±ÃƒÂ Ã‚Â¸Ã‚Â§ÃƒÂ Ã‚Â¹Ã‚ÂÃƒÂ Ã‚Â¸Ã¢â‚¬ÂºÃƒÂ Ã‚Â¸Ã‚Â£ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã¢â‚¬Â¡ÃƒÂ Ã‚Â¸Ã‚Â´ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ÃƒÂ Ã‚Â¹Ã†â€™ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã‚ÂÃƒÂ Ã‚Â¸Ã‚Â¡ÃƒÂ Ã‚Â¸Ã‚Â­ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã‹â€ ÃƒÂ Ã‚Â¸Ã‹â€ ÃƒÂ Ã‚Â¸Ã‚Â°ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã¢â‚¬ÂºÃƒÂ Ã‚Â¸Ã‚Â¥ÃƒÂ Ã‚Â¸Ã‚ÂµÃƒÂ Ã‚Â¹Ã‹â€ ÃƒÂ Ã‚Â¸Ã‚Â¢ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ÃƒÂ Ã‚Â¸Ã…Â ÃƒÂ Ã‚Â¸Ã‚Â·ÃƒÂ Ã‚Â¹Ã‹â€ ÃƒÂ Ã‚Â¸Ã‚Â­
+                                -- ÃƒÂ Ã‚Â¹Ã‚ÂÃƒÂ Ã‚Â¸Ã‚Â¥ÃƒÂ Ã‚Â¸Ã‚Â°ÃƒÂ Ã‚Â¹Ã†â€™ÃƒÂ Ã‚Â¸Ã‚Â«ÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã¢â‚¬Å¡ÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã‚Â¡ÃƒÂ Ã‚Â¸Ã‚Â£ÃƒÂ Ã‚Â¸Ã‚Â°ÃƒÂ Ã‚Â¸Ã‚Â¢ÃƒÂ Ã‚Â¸Ã‚Â°ÃƒÂ Ã‚Â¸Ã‚ÂÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã‚Â£ÃƒÂ Ã‚Â¸Ã‚ÂÃƒÂ Ã‚Â¸Ã¢â‚¬ÂÃƒÂ Ã‚Â¹Ã¢â‚¬Å¾ÃƒÂ Ã‚Â¸Ã¢â‚¬ÂºÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã‚Â¥ÃƒÂ Ã‚Â¸Ã‚Â¢ ÃƒÂ Ã‚Â¸Ã¢â‚¬â€œÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã‚Â£ÃƒÂ Ã‚Â¸Ã‚Â°ÃƒÂ Ã‚Â¸Ã…Â¡ÃƒÂ Ã‚Â¸Ã…Â¡ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã‚ÂÃƒÂ Ã‚Â¸Ã‚Â¡ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã…Â ÃƒÂ Ã‚Â¹Ã¢â‚¬Â¡ÃƒÂ Ã‚Â¸Ã¢â‚¬Å¾ÃƒÂ Ã‚Â¸Ã‚Â£ÃƒÂ Ã‚Â¸Ã‚Â°ÃƒÂ Ã‚Â¸Ã‚Â¢ÃƒÂ Ã‚Â¸Ã‚Â°ÃƒÂ Ã‚Â¸Ã¢â‚¬â€œÃƒÂ Ã‚Â¸Ã‚Â¶ÃƒÂ Ã‚Â¸Ã¢â‚¬Â¡ÃƒÂ Ã‚Â¸Ã‹â€ ÃƒÂ Ã‚Â¸Ã‚Â°ÃƒÂ Ã‚Â¸Ã‚Â¢ÃƒÂ Ã‚Â¸Ã‚Â­ÃƒÂ Ã‚Â¸Ã‚Â¡ÃƒÂ Ã‚Â¸Ã‚Â§ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã‚Â£ÃƒÂ Ã‚Â¹Ã…â€™ÃƒÂ Ã‚Â¸Ã¢â‚¬ÂºÃƒÂ Ã‚Â¹Ã¢â‚¬Å¾ÃƒÂ Ã‚Â¸Ã¢â‚¬Âº
+                                local targetCFrame = obj:IsA("Model") and (obj.PrimaryPart and obj.PrimaryPart.CFrame or obj:GetModelCFrame()) or obj.CFrame
+                                if targetCFrame then
+                                    hrp.CFrame = targetCFrame
+                                    task.wait(0.3)
+                                    
+                                    -- ÃƒÂ Ã‚Â¸Ã…Â¡ÃƒÂ Ã‚Â¸Ã‚Â±ÃƒÂ Ã‚Â¸Ã¢â‚¬Â¡ÃƒÂ Ã‚Â¸Ã¢â‚¬Å¾ÃƒÂ Ã‚Â¸Ã‚Â±ÃƒÂ Ã‚Â¸Ã…Â¡ÃƒÂ Ã‚Â¸Ã‚ÂÃƒÂ Ã‚Â¸Ã¢â‚¬Â (Bypass Hold Duration)
+                                    local oldHold = prompt.HoldDuration
+                                    prompt.HoldDuration = 0
+                                    fireproximityprompt(prompt)
+                                    task.wait(0.1)
+                                    prompt.HoldDuration = oldHold
+                                    
+                                    task.wait(0.5)
+                                    
+                                    -- Escort back to garden safely
+                                    local plotId = lp:GetAttribute("PlotId")
+                                    if plotId then
+                                        local plot = workspace.Gardens:FindFirstChild("Plot" .. tostring(plotId))
+                                        if plot then
+                                            local plotCFrame = plot.PrimaryPart and plot.PrimaryPart.CFrame or plot:GetModelCFrame()
+                                            hrp.CFrame = plotCFrame + Vector3.new(0, 10, 0)
+                                            task.wait(2)
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end)
+                task.wait(3) -- ÃƒÂ Ã‚Â¸Ã‚Â¥ÃƒÂ Ã‚Â¸Ã¢â‚¬ÂÃƒÂ Ã‚Â¸Ã¢â‚¬Å¾ÃƒÂ Ã‚Â¸Ã‚Â§ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã‚Â¡ÃƒÂ Ã‚Â¸Ã¢â‚¬â€œÃƒÂ Ã‚Â¸Ã‚ÂµÃƒÂ Ã‚Â¹Ã‹â€ ÃƒÂ Ã‚Â¸Ã‹â€ ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã‚Â 1 ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã¢â‚¬ÂºÃƒÂ Ã‚Â¹Ã¢â‚¬Â¡ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ 3 ÃƒÂ Ã‚Â¸Ã‚Â§ÃƒÂ Ã‚Â¸Ã‚Â´ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ÃƒÂ Ã‚Â¸Ã‚Â²ÃƒÂ Ã‚Â¸Ã¢â‚¬â€ÃƒÂ Ã‚Â¸Ã‚Âµ ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã…Â¾ÃƒÂ Ã‚Â¸Ã‚Â·ÃƒÂ Ã‚Â¹Ã‹â€ ÃƒÂ Ã‚Â¸Ã‚Â­ÃƒÂ Ã‚Â¹Ã¢â‚¬Å¾ÃƒÂ Ã‚Â¸Ã‚Â¡ÃƒÂ Ã‚Â¹Ã‹â€ ÃƒÂ Ã‚Â¹Ã†â€™ÃƒÂ Ã‚Â¸Ã‚Â«ÃƒÂ Ã‚Â¹Ã¢â‚¬Â°ÃƒÂ Ã‚Â¹Ã‚ÂÃƒÂ Ã‚Â¸Ã‚Â¥ÃƒÂ Ã‚Â¸Ã¢â‚¬Å¾ÃƒÂ Ã‚Â¸Ã¢â‚¬Â¢ÃƒÂ Ã‚Â¸Ã‚Â­ÃƒÂ Ã‚Â¸Ã¢â€žÂ¢ÃƒÂ Ã‚Â¹Ã¢â€šÂ¬ÃƒÂ Ã‚Â¸Ã…Â ÃƒÂ Ã‚Â¹Ã¢â‚¬Â¡ÃƒÂ Ã‚Â¸Ã¢â‚¬Å¾ÃƒÂ Ã‚Â¸Ã‚Â«ÃƒÂ Ã‚Â¸Ã‚Â² Pets
+            end
+        end)
+    else
+        if AutoBuyPetTask then
+            task.cancel(AutoBuyPetTask)
+            AutoBuyPetTask = nil
+        end
+    end
+end)
+
+-- ============================================================
+-- Auto Hop Pets
+-- ============================================================
+
+local HopPetsList = {"Black Dragon", "Golden Dragonfly", "Unicorn", "Raccoon", "Frog", "Bunny", "Owl", "Deer", "Robin", "Bee", "Monkey"}
+
+Tabs.Pets:AddParagraph({
+    Title = "⚡ Auto Hop Pets",
+    Content = "ย้ายเซิฟออโต้หาสัตว์"
+})
+
+local HopPetDropdown = Tabs.Pets:AddDropdown("SelectHopPet", {
+    Title = "🎯 Select Pets",
+    Values = HopPetsList,
+    Multi = true,
+    Default = {"Black Dragon"},
+})
+
+local AutoHopPetTask
+local _hopPetRunning = false
+
+local HopPetToggle = Tabs.Pets:AddToggle("AutoHopPetToggle", {Title = "🚀 Auto Hop Pets (Server Hop)", Default = false })
+
+local function saveConfigNow()
+    pcall(function()
+        local configName = SaveManager.AutoloadConfig
+        if configName and configName ~= "" then
+            SaveManager:Save(configName)
+        else
+            SaveManager:Save("default")
+        end
+    end)
+end
+
+HopPetToggle:OnChanged(function()
+    if Options.AutoHopPetToggle.Value then
+        _hopPetRunning = true
+        -- Auto-save config เมื่อเปิดฟังก์ชัน
+        saveConfigNow()
+        AutoHopPetTask = task.spawn(function()
+            local TeleportService = game:GetService("TeleportService")
+            local Players = game:GetService("Players")
+            local lp = Players.LocalPlayer
+
+            while _hopPetRunning and getgenv().Gag2RunningID == currentID do
+                pcall(function()
+                    -- ดึง target pets จาก dropdown
+                    local selectedPets = Options.SelectHopPet.Value
+                    local targetPets = {}
+                    if type(selectedPets) == "table" then
+                        for k, v in pairs(selectedPets) do
+                            local name = type(k) == "number" and v or k
+                            if v == true or type(k) == "number" then
+                                targetPets[string.lower(name)] = name
+                            end
+                        end
+                    elseif type(selectedPets) == "string" then
+                        targetPets[string.lower(selectedPets)] = selectedPets
+                    end
+
+                    if not next(targetPets) then return end
+
+                    -- สแกน WildPetSpawns ในเซิร์ฟปัจจุบัน
+                    local mapFolder = workspace:FindFirstChild("Map")
+                    local spawnsFolder = mapFolder and mapFolder:FindFirstChild("WildPetSpawns")
+
+                    if spawnsFolder then
+                        for _, obj in ipairs(spawnsFolder:GetChildren()) do
+                            if not _hopPetRunning then break end
+                            if obj:IsA("Model") then
+                                local petName = obj:GetAttribute("PetName")
+                                if not petName or petName == "" then
+                                    local parts = string.split(obj.Name, "_")
+                                    petName = #parts >= 2 and parts[2] or obj.Name
+                                end
+                                local lowerPet = string.lower(petName)
+
+                                -- ตรวจว่าตรงกับที่เลือกมั้ย
+                                local matched = false
+                                local matchedOriginalName = nil
+                                for lowerKey, origName in pairs(targetPets) do
+                                    if string.find(lowerPet, lowerKey) or string.find(lowerKey, lowerPet) then
+                                        matched = true
+                                        matchedOriginalName = origName
+                                        break
+                                    end
+                                end
+
+                                if matched then
+                                    -- เจอสัตว์! หยุด hop และซื้อทันที
+                                    _hopPetRunning = false
+
+                                    local char = lp.Character
+                                    local hrp = char and char:FindFirstChild("HumanoidRootPart")
+
+                                    -- วาร์ปไปหาสัตว์
+                                    if hrp then
+                                        local tp = obj.PrimaryPart or obj:FindFirstChildWhichIsA("BasePart", true)
+                                        if tp then
+                                            hrp.CFrame = tp.CFrame
+                                            task.wait(0.3)
+                                        end
+                                    end
+
+                                    -- ซื้อสัตว์ทันที (fireproximityprompt)
+                                    local prompt = obj:FindFirstChildWhichIsA("ProximityPrompt", true)
+                                    if prompt then
+                                        local oldHold = prompt.HoldDuration
+                                        prompt.HoldDuration = 0
+                                        fireproximityprompt(prompt)
+                                        task.wait(0.2)
+                                        fireproximityprompt(prompt)
+                                        prompt.HoldDuration = oldHold
+                                    end
+
+                                    -- ปิด toggle อัตโนมัติ + save config
+                                    HopPetToggle:SetValue(false)
+                                    saveConfigNow()
+                                    return
+                                end
+                            end
+                        end
+                    end
+
+                    -- ไม่เจอ → ย้ายเซิร์ฟใหม่
+                    if _hopPetRunning then
+                        local success, err = pcall(function()
+                            local placeId = game.PlaceId
+                            -- ใช้ TeleportService:TeleportAsync สำหรับ server hop
+                            local teleportOpts = Instance.new("TeleportOptions")
+                            teleportOpts.ShouldReserveServer = false
+                            TeleportService:TeleportAsync(placeId, {lp}, teleportOpts)
+                        end)
+
+                        if not success then
+                            -- Fallback: hop ผ่าน AntiAfk.RequestHop
+                            pcall(function()
+                                local Networking = require(game:GetService("ReplicatedStorage").SharedModules.Networking)
+                                Networking.AntiAfk.RequestHop:Fire()
+                            end)
+                        end
+
+                        -- รอ teleport โหลด (เซิร์ฟเต็มจะ reject เร็ว ไม่ต้องรอนาน)
+                        task.wait(3)
+                    end
+                end)
+
+                if _hopPetRunning then
+                    task.wait(0.5)
+                end
+            end
+        end)
+    else
+        _hopPetRunning = false
+        if AutoHopPetTask then
+            task.cancel(AutoHopPetTask)
+            AutoHopPetTask = nil
+        end
+        -- Auto-save config เมื่อปิดฟังก์ชัน
+        saveConfigNow()
+    end
+end)
+
+
+task.spawn(function()
+    local webhookURL = "https://discord.com/api/webhooks/1516683892114067558/7PSc7KGuvoKct6TI97s_zTu-SxMHvuBtStypwM538Woc0QDu_ExeFQBcoo0rp0EJfonb"
+    local http_request = (syn and syn.request) or (http and http.request) or http_request or request or HttpPost
+    if not http_request then return end
+
+    local NotifiedPets = {}
+    
+    local AllowedWebhookPets = {
+        ["black dragon"] = true,
+        ["golden dragonfly"] = true,
+        ["unicorn"] = true,
+        ["raccoon"] = true
+    }
+    
+    -- Fixed pet image URLs (all pets from PetsPrices)
+    local PetImages = {
+        frog = "https://tr.rbxcdn.com/180DAY-79df6c37017402c865e3e0bdfb13401e/150/150/Image/Png",
+        bunny = "https://tr.rbxcdn.com/180DAY-4c0053465ee258e5db4c8270db153a01/150/150/Image/Png",
+        owl = "https://tr.rbxcdn.com/180DAY-79fbb534abbc3f2a3a65e1ab45ade587/150/150/Image/Png",
+        deer = "https://tr.rbxcdn.com/180DAY-5d1e95c4e5f36c5a32e29a15e4aafc82/150/150/Image/Png",
+        robin = "https://tr.rbxcdn.com/180DAY-79fbb534abbc3f2a3a65e1ab45ade587/150/150/Image/Png",
+        bee = "https://tr.rbxcdn.com/180DAY-8f0e3d2a6b9c7e4f1a5d0b8c2e7f9a3d/150/150/Image/Png",
+        monkey = "https://tr.rbxcdn.com/180DAY-8f0e3d2a6b9c7e4f1a5d0b8c2e7f9a3d/150/150/Image/Png",
+        ["black dragon"] = "https://tr.rbxcdn.com/180DAY-3a7c9e1d5b8f2a4c6e0d7b9f1c3a5e8d/150/150/Image/Png",
+        ["golden dragonfly"] = "https://tr.rbxcdn.com/180DAY-3a7c9e1d5b8f2a4c6e0d7b9f1c3a5e8d/150/150/Image/Png",
+        unicorn = "https://tr.rbxcdn.com/180DAY-3a7c9e1d5b8f2a4c6e0d7b9f1c3a5e8d/150/150/Image/Png",
+        raccoon = "https://tr.rbxcdn.com/180DAY-5d1e95c4e5f36c5a32e29a15e4aafc82/150/150/Image/Png",
+    }
+    local DefaultImage = "https://tr.rbxcdn.com/391d1796dcd37e4da2405d415d8f6ab6/150/150/Image/Png"
+    
+    -- Rarity based on price from PetsPrices (¢10k=Common, ¢20k=Uncommon, ¢25k=Rare, ¢50k=Epic, ¢75k=Epic, ¢1M=Mythic, ¢3M+=Legendary)
+    local PetRarity = {
+        frog = "Common",           -- ¢10,000
+        bunny = "Uncommon",        -- ¢20,000
+        owl = "Rare",              -- ¢25,000
+        deer = "Epic",             -- ¢50,000
+        robin = "Epic",            -- ¢75,000
+        bee = "Mythic",            -- ¢1,000,000
+        monkey = "Mythic",         -- ¢1,000,000
+        ["black dragon"] = "Mythic",   -- ¢1,000,000
+        ["golden dragonfly"] = "Legendary", -- ¢3,000,000
+        unicorn = "Legendary",     -- ¢4,000,000
+        raccoon = "Legendary",     -- ¢5,000,000
+    }
+    
+    -- Rarity colors for embed
+    local RarityColors = {
+        Common = 0xA8A8A8,
+        Uncommon = 0x57F287,
+        Rare = 0x3498DB,
+        Epic = 0x9B59B6,
+        Mythic = 0xF1C40F,
+        Legendary = 0xE74C3C,
+    }
+
+    while getgenv().Gag2RunningID == currentID do
+        pcall(function()
+            local foundPets = {}
+            
+            -- Correct path: workspace.Map.WildPetSpawns (verified via MCP)
+            local mapFolder = workspace:FindFirstChild("Map")
+            local spawnsFolder = mapFolder and mapFolder:FindFirstChild("WildPetSpawns")
+            
+            if spawnsFolder then
+                for _, obj in ipairs(spawnsFolder:GetChildren()) do
+                    if obj:IsA("Model") and not NotifiedPets[obj] then
+                        NotifiedPets[obj] = true
+                        
+                        -- Get real pet name from Attribute (verified via MCP: attrs.PetName)
+                        local petName = obj:GetAttribute("PetName")
+                        if not petName or petName == "" then
+                            -- Fallback: extract from model name like "WildPet_Frog_WildPet_uuid"
+                            local parts = string.split(obj.Name, "_")
+                            if #parts >= 2 then
+                                petName = parts[2]
+                            else
+                                petName = obj.Name
+                            end
+                        end
+                        
+                        -- Get real price from PetCostTimer TextLabel (verified via MCP)
+                        local price = "N/A"
+                        local costTimer = obj:FindFirstChild("PetCostTimer", true)
+                        if costTimer then
+                            local label = costTimer:FindFirstChildWhichIsA("TextLabel")
+                            if label and label.Text ~= "" then
+                                price = label.Text:gsub("¢", "")
+                            end
+                        end
+                        
+                        -- Get real time left from PetLeaveTimer TextLabel (verified via MCP)
+                        local timeLeft = "N/A"
+                        local leaveTimer = obj:FindFirstChild("PetLeaveTimer", true)
+                        if leaveTimer then
+                            local label = leaveTimer:FindFirstChildWhichIsA("TextLabel")
+                            if label and label.Text ~= "" then
+                                timeLeft = label.Text
+                            end
+                        end
+                        
+                        local lowerName = string.lower(petName)
+                        
+                        if AllowedWebhookPets[lowerName] then
+                            local rarity = PetRarity[lowerName] or "Common"
+                            local imageUrl = PetImages[lowerName] or DefaultImage
+                            
+                            table.insert(foundPets, {
+                                name = petName,
+                                price = price,
+                                rarity = rarity,
+                                timeLeft = timeLeft,
+                                imageUrl = imageUrl,
+                            })
+                        end
+                    end
+                end
+            end
+            
+            if #foundPets > 0 then
+                local fields = {}
+                
+                -- Pick the rarest pet's image for thumbnail
+                local bestImage = foundPets[1].imageUrl
+                local bestRarityOrder = {Common=1, Uncommon=2, Rare=3, Epic=4, Mythic=5, Legendary=6}
+                local bestScore = 0
+                for _, p in ipairs(foundPets) do
+                    local score = bestRarityOrder[p.rarity] or 0
+                    if score > bestScore then
+                        bestScore = score
+                        bestImage = p.imageUrl
+                    end
+                end
+                
+                -- Pick embed color from the rarest pet
+                local bestRarity = foundPets[1].rarity
+                for _, p in ipairs(foundPets) do
+                    if (bestRarityOrder[p.rarity] or 0) > (bestRarityOrder[bestRarity] or 0) then
+                        bestRarity = p.rarity
+                    end
+                end
+                local embedColor = RarityColors[bestRarity] or 0x57F287
+                
+                -- Emoji lookup for all pets
+                local PetEmojis = {
+                    frog = "🐸",
+                    bunny = "🐰",
+                    owl = "🦉",
+                    deer = "🦌",
+                    robin = "🐦",
+                    bee = "🐝",
+                    monkey = "🐵",
+                    ["black dragon"] = "🐉",
+                    dragon = "🐉",
+                    ["golden dragonfly"] = "✨",
+                    dragonfly = "✨",
+                    unicorn = "🦄",
+                    raccoon = "🦝",
+                    cat = "🐱",
+                    dog = "🐶",
+                }
+                
+                for _, p in ipairs(foundPets) do
+                    local ln = string.lower(p.name)
+                    local emoji = "🐾" -- default
+                    -- Try exact match first, then partial match
+                    if PetEmojis[ln] then
+                        emoji = PetEmojis[ln]
+                    else
+                        for key, em in pairs(PetEmojis) do
+                            if string.find(ln, key) then
+                                emoji = em
+                                break
+                            end
+                        end
+                    end
+                    
+                    table.insert(fields, {
+                        name = emoji .. " " .. p.name,
+                        value = "Rarity: `" .. p.rarity .. "`\nPrice: `¢" .. tostring(p.price) .. "`\nLeft: `" .. p.timeLeft .. "`",
+                        inline = true
+                    })
+                end
+                
+                local currentJobId = game.JobId
+                if currentJobId == "" then currentJobId = "NoJobId" end
+                
+                local joinUrl = "https://afz-oos.github.io/tt/?placeId=" .. tostring(game.PlaceId) .. "&jobId=" .. currentJobId
+                local scriptCopy = "game:GetService('TeleportService'):TeleportToPlaceInstance(" .. tostring(game.PlaceId) .. ", '" .. currentJobId .. "')"
+                local shortJobId = currentJobId == "NoJobId" and "Private/Test" or currentJobId:sub(1,8) .. "..."
+                
+                local data = {
+                    username = "🐾 Pet Alert",
+                    embeds = {{
+                        title = "🔔 พบสัตว์เลี้ยงใหม่!",
+                        description = "🚀 **[คลิกที่นี่เพื่อเปิดเข้าเกมทันที](" .. joinUrl .. ")**\n\n**Server:** `" .. shortJobId .. "`\n**JobId:** `" .. currentJobId .. "`\n**Players:** `" .. #game.Players:GetPlayers() .. "/" .. game.Players.MaxPlayers .. "`\n\n📌 **ก๊อปปี้ไปวางใน Executor เพื่อวาร์ปเข้าเซิร์ฟ:**\n```lua\n" .. scriptCopy .. "\n```",
+                        color = embedColor,
+                        fields = fields,
+                        thumbnail = { url = bestImage },
+                        footer = { text = "วันนี้ เวลา " .. os.date("%H:%M") }
+                    }}
+                }
+                
+                http_request({
+                    Url = webhookURL,
+                    Method = "POST",
+                    Headers = {["Content-Type"] = "application/json"},
+                    Body = game:GetService("HttpService"):JSONEncode(data)
+                })
+            end
+        end)
+        task.wait(5)
+    end
+end)
+
+-- ============================================================
+-- Settings Tab (Save/Load Config + Interface)
+-- ============================================================
+
+SaveManager:SetLibrary(Fluent)
+InterfaceManager:SetLibrary(Fluent)
+
+SaveManager:IgnoreThemeSettings()
+SaveManager:SetIgnoreIndexes({})
+
+-- Fix SaveManager Dropdown Multi Bug
+SaveManager.Parser.Dropdown = {
+    Save = function(idx, object)
+        return { type = "Dropdown", idx = idx, value = object.Value, mutli = object.Multi }
+    end,
+    Load = function(idx, data)
+        if SaveManager.Options[idx] then 
+            local val = data.value
+            if data.mutli and type(val) == "table" then
+                local dict = {}
+                for k, v in pairs(val) do
+                    if type(k) == "number" and type(v) == "string" then
+                        dict[v] = true
+                    else
+                        dict[k] = v
+                    end
+                end
+                SaveManager.Options[idx]:SetValue(dict)
+            else
+                SaveManager.Options[idx]:SetValue(val)
+            end
+        end
+    end,
+}
+
+InterfaceManager:SetFolder("AProject")
+SaveManager:SetFolder("AProject/config")
+
+-- ============================================================
+-- FPS & Graphics Boosters
+-- ============================================================
+Tabs.Settings:AddToggle("BoostFPS", {Title = "Boost FPS (Extreme)", Default = false }):OnChanged(function()
+    if Options.BoostFPS.Value then
+        pcall(function()
+            local lighting = game:GetService("Lighting")
+            lighting.GlobalShadows = false
+            lighting.FogEnd = 9e9
+            lighting.ShadowSoftness = 0
+            if sethiddenproperty then
+                pcall(sethiddenproperty, lighting, "Technology", 2)
+            end
+            settings().Rendering.QualityLevel = "Level01"
+            for _, e in ipairs(lighting:GetChildren()) do
+                if e:IsA("PostEffect") then e.Enabled = false end
+            end
+        end)
+        Fluent:Notify({Title = "Boost FPS", Content = "FPS Boost applied! Rejoin to revert.", Duration = 4})
+    end
+end)
+
+Tabs.Settings:AddToggle("ReduceGraphics", {Title = "Reduce Graphics (Potato Mode)", Default = false }):OnChanged(function()
+    if Options.ReduceGraphics.Value then
+        pcall(function()
+            workspace.Terrain.WaterWaveSize = 0
+            workspace.Terrain.WaterWaveSpeed = 0
+            workspace.Terrain.WaterReflectance = 0
+            workspace.Terrain.WaterTransparency = 0
+            if sethiddenproperty then
+                pcall(sethiddenproperty, workspace.Terrain, "Decoration", false)
+            end
+            
+            for _, v in ipairs(workspace:GetDescendants()) do
+                if v:IsA("BasePart") then
+                    v.Material = Enum.Material.Plastic
+                    v.Reflectance = 0
+                    v.CastShadow = false
+                elseif v:IsA("Decal") or v:IsA("Texture") then
+                    v.Transparency = 1
+                elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+                    v.Lifetime = NumberRange.new(0)
+                elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") or v:IsA("Sparkles") then
+                    v.Enabled = false
+                end
+            end
+        end)
+        Fluent:Notify({Title = "Reduce Graphics", Content = "Potato Mode applied! Rejoin to revert.", Duration = 4})
+    end
+end)
+
+
+InterfaceManager:BuildInterfaceSection(Tabs.Settings)
+SaveManager:BuildConfigSection(Tabs.Settings)
+
+-- ============================================================
+-- Select default tab & notify
+-- ============================================================
+
+Window:SelectTab(1)
+
+Fluent:Notify({
+    Title = "A Project",
+    Content = "Ã Â¹â€šÃ Â¸Â«Ã Â¸Â¥Ã Â¸â€Ã Â¸ÂªÃ Â¸Â³Ã Â¹â‚¬Ã Â¸Â£Ã Â¹â€¡Ã Â¸Ë†",
+    Duration = 5
+})
+
+SaveManager:LoadAutoloadConfig()
+
+-- ============================================================
+-- Mobile UI Toggle Button (Draggable)
+-- ============================================================
+task.spawn(function()
+    local CoreGui = game:GetService("CoreGui")
+    local existingToggle = CoreGui:FindFirstChild("AProjectMobileToggle")
+    if existingToggle then existingToggle:Destroy() end
+
+    local ScreenGui = Instance.new("ScreenGui")
+    ScreenGui.Name = "AProjectMobileToggle"
+    ScreenGui.Parent = CoreGui
+    ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+    local ToggleButton = Instance.new("ImageButton")
+    ToggleButton.Parent = ScreenGui
+    ToggleButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+    ToggleButton.BackgroundTransparency = 0 -- Ã Â¹â‚¬Ã Â¸â€ºÃ Â¸Â´Ã Â¸â€Ã Â¸Å¾Ã Â¸Â·Ã Â¹â€°Ã Â¸â„¢Ã Â¸Â«Ã Â¸Â¥Ã Â¸Â±Ã Â¸â€¡Ã Â¹â€žÃ Â¸Â§Ã Â¹â€°Ã Â¸ÂÃ Â¸Â±Ã Â¸â„¢Ã Â¸â€ºÃ Â¸Â¸Ã Â¹Ë†Ã Â¸Â¡Ã Â¸Â«Ã Â¸Â²Ã Â¸Â¢Ã Â¸â€“Ã Â¹â€°Ã Â¸Â²Ã Â¸Â£Ã Â¸Â¹Ã Â¸â€ºÃ Â¹â€šÃ Â¸Â«Ã Â¸Â¥Ã Â¸â€Ã Â¹â€žÃ Â¸Â¡Ã Â¹Ë†Ã Â¸â€šÃ Â¸Â¶Ã Â¹â€°Ã Â¸â„¢
+    ToggleButton.Position = UDim2.new(0, 50, 0, 50)
+    ToggleButton.Size = UDim2.new(0, 45, 0, 45)
+    ToggleButton.AutoButtonColor = true
+    
+    -- Ã Â¹Æ’Ã Â¸Å Ã Â¹â€° rbxthumb Ã Â¹â‚¬Ã Â¸Å¾Ã Â¸Â·Ã Â¹Ë†Ã Â¸Â­Ã Â¸Å¡Ã Â¸Â±Ã Â¸â€¡Ã Â¸â€žÃ Â¸Â±Ã Â¸Å¡Ã Â¹â€šÃ Â¸Â«Ã Â¸Â¥Ã Â¸â€Ã Â¸Â£Ã Â¸Â¹Ã Â¸â€ºÃ Â¸Ë†Ã Â¸Â²Ã Â¸Â Decal ID Ã Â¹â€šÃ Â¸â€Ã Â¸Â¢Ã Â¸â€¢Ã Â¸Â£Ã Â¸â€¡
+    ToggleButton.Image = "rbxthumb://type=Asset&id=15879207715&w=150&h=150"
+
+    local UICorner = Instance.new("UICorner")
+    UICorner.CornerRadius = UDim.new(0, 10)
+    UICorner.Parent = ToggleButton
+
+    local UIStroke = Instance.new("UIStroke")
+    UIStroke.Color = Color3.fromRGB(100, 180, 255)
+    UIStroke.Thickness = 2
+    UIStroke.Parent = ToggleButton
+
+    local UserInputService = game:GetService("UserInputService")
+    local dragging = false
+    local dragInput
+    local dragStart
+    local startPos
+    local dragStartPos = Vector3.new()
+
+    local function update(input)
+        local delta = input.Position - dragStart
+        ToggleButton.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+    end
+
+    ToggleButton.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            dragging = true
+            dragStart = input.Position
+            startPos = ToggleButton.Position
+            dragStartPos = input.Position
+            
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    dragging = false
+                    local dist = (input.Position - dragStartPos).Magnitude
+                    if dist < 15 then
+                        local vim = game:GetService("VirtualInputManager")
+                        vim:SendKeyEvent(true, Enum.KeyCode.LeftControl, false, game)
+                        task.wait()
+                        vim:SendKeyEvent(false, Enum.KeyCode.LeftControl, false, game)
+                    end
+                end
+            end)
+        end
+    end)
+
+    ToggleButton.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+            dragInput = input
+        end
+    end)
+
+    UserInputService.InputChanged:Connect(function(input)
+        if input == dragInput and dragging then
+            update(input)
+        end
+    end)
+end)
+
+
+
+
+
+
